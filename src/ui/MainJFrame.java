@@ -31,7 +31,10 @@ public class MainJFrame extends javax.swing.JFrame {
         PatientPanel = new javax.swing.JButton();
         DoctorJPanel = new javax.swing.JButton();
         SAJPanel = new javax.swing.JButton();
+<<<<<<< Updated upstream
         CAJPanel = new javax.swing.JButton();
+=======
+>>>>>>> Stashed changes
         jWorkArea = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -46,8 +49,16 @@ public class MainJFrame extends javax.swing.JFrame {
         DoctorJPanel.setText("Are you a doctor?");
 
         SAJPanel.setText("System Admin");
+<<<<<<< Updated upstream
 
         CAJPanel.setText("Community Admin");
+=======
+        SAJPanel.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                SAJPanelActionPerformed(evt);
+            }
+        });
+>>>>>>> Stashed changes
 
         javax.swing.GroupLayout jBtnPanelLayout = new javax.swing.GroupLayout(jBtnPanel);
         jBtnPanel.setLayout(jBtnPanelLayout);
@@ -56,10 +67,16 @@ public class MainJFrame extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jBtnPanelLayout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jBtnPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+<<<<<<< Updated upstream
                     .addComponent(CAJPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(SAJPanel, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(DoctorJPanel, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(PatientPanel, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+=======
+                    .addComponent(SAJPanel, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(DoctorJPanel, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(PatientPanel, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 133, Short.MAX_VALUE))
+>>>>>>> Stashed changes
                 .addContainerGap())
         );
         jBtnPanelLayout.setVerticalGroup(
@@ -71,9 +88,13 @@ public class MainJFrame extends javax.swing.JFrame {
                 .addComponent(DoctorJPanel)
                 .addGap(27, 27, 27)
                 .addComponent(SAJPanel)
+<<<<<<< Updated upstream
                 .addGap(26, 26, 26)
                 .addComponent(CAJPanel)
                 .addContainerGap(235, Short.MAX_VALUE))
+=======
+                .addContainerGap(283, Short.MAX_VALUE))
+>>>>>>> Stashed changes
         );
 
         SplitPanel.setLeftComponent(jBtnPanel);
@@ -111,6 +132,17 @@ public class MainJFrame extends javax.swing.JFrame {
         SplitPanel.setRightComponent(patient);
     }//GEN-LAST:event_PatientPanelActionPerformed
 
+<<<<<<< Updated upstream
+=======
+    private void SAJPanelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SAJPanelActionPerformed
+        // TODO add your handling code here:
+       /* SytemAdmJPanel sa = new SytemAdmJPanel();
+        SplitPanel.setRightComponent(sa);*/
+       SystemAdminJPanel sa = new SystemAdminJPanel();
+       SplitPanel.setRightComponent(sa);
+    }//GEN-LAST:event_SAJPanelActionPerformed
+
+>>>>>>> Stashed changes
     /**
      * @param args the command line arguments
      */
@@ -147,7 +179,10 @@ public class MainJFrame extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+<<<<<<< Updated upstream
     private javax.swing.JButton CAJPanel;
+=======
+>>>>>>> Stashed changes
     private javax.swing.JButton DoctorJPanel;
     private javax.swing.JButton PatientPanel;
     private javax.swing.JButton SAJPanel;
