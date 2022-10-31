@@ -3,15 +3,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-<<<<<<< Updated upstream
-            <file>file:/C:/Users/HP/Desktop/Vijaya's%20Workspace/FindOCare/src/ui/PatientJPanel.java</file>
-            <file>file:/C:/Users/HP/Desktop/Vijaya's%20Workspace/FindOCare/src/ui/MainJFrame.java</file>
-=======
-            <file>file:/C:/Users/HP/Documents/NetBeansProjects/FindOCare/src/ui/PatientForm.java</file>
-            <file>file:/C:/Users/HP/Documents/NetBeansProjects/FindOCare/src/ui/ViewPatient.java</file>
-            <file>file:/C:/Users/HP/Documents/NetBeansProjects/FindOCare/src/ui/PatientJPanel.java</file>
+            <file>file:/C:/Users/sajja/Downloads/FindOCare/FindOCare/src/model/DoctorHistory.java</file>
+            <file>file:/C:/Users/sajja/Downloads/FindOCare/FindOCare/src/model/Doctor.java</file>
+            <file>file:/C:/Users/sajja/Downloads/FindOCare/FindOCare/src/model/Patient.java</file>
+            <file>file:/C:/Users/sajja/Downloads/FindOCare/FindOCare/src/model/PatientHistory.java</file>
+            <file>file:/C:/Users/sajja/Downloads/FindOCare/FindOCare/src/ui/PatientJPanel.java</file>
+            <file>file:/C:/Users/sajja/Downloads/FindOCare/FindOCare/src/ui/MainJFrame.java</file>
             <file>file:/C:/Users/HP/Documents/NetBeansProjects/FindOCare/src/ui/SystemAdmin.java</file>
->>>>>>> Stashed changes
         </group>
     </open-files>
 </project-private>

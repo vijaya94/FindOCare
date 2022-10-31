@@ -4,6 +4,8 @@
  */
 package ui;
 
+import model.PatientHistory;
+
 /**
  *
  * @author HP
@@ -12,9 +14,12 @@ public class MainJFrame extends javax.swing.JFrame {
 
     /**
      * Creates new form MainJFrame
-     */
+     */ 
+    PatientHistory historyP;
+    
     public MainJFrame() {
         initComponents();
+        historyP = new PatientHistory();
     }
 
     /**
@@ -28,73 +33,67 @@ public class MainJFrame extends javax.swing.JFrame {
 
         SplitPanel = new javax.swing.JSplitPane();
         jBtnPanel = new javax.swing.JPanel();
-        PatientPanel = new javax.swing.JButton();
+        btnPatient = new javax.swing.JButton();
         DoctorJPanel = new javax.swing.JButton();
         SAJPanel = new javax.swing.JButton();
-<<<<<<< Updated upstream
+        btnPatientDetails = new javax.swing.JButton();
+        SAJPanel = new javax.swing.JButton();
         CAJPanel = new javax.swing.JButton();
-=======
->>>>>>> Stashed changes
         jWorkArea = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-
-        PatientPanel.setText("Are you a patient?");
-        PatientPanel.addActionListener(new java.awt.event.ActionListener() {
+        
+        btnPatient.setText("Are you a patient?");
+        btnPatient.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                PatientPanelActionPerformed(evt);
+                btnPatientActionPerformed(evt);
             }
         });
 
         DoctorJPanel.setText("Are you a doctor?");
 
         SAJPanel.setText("System Admin");
-<<<<<<< Updated upstream
-
-        CAJPanel.setText("Community Admin");
-=======
         SAJPanel.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 SAJPanelActionPerformed(evt);
             }
         });
->>>>>>> Stashed changes
+        
+
+        btnPatientDetails.setText("See Patient Details");
+        btnPatientDetails.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnPatientDetailsActionPerformed(evt);
+            }
+        });
+
 
         javax.swing.GroupLayout jBtnPanelLayout = new javax.swing.GroupLayout(jBtnPanel);
         jBtnPanel.setLayout(jBtnPanelLayout);
         jBtnPanelLayout.setHorizontalGroup(
             jBtnPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jBtnPanelLayout.createSequentialGroup()
+            .addComponent(SAJPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(DoctorJPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(jBtnPanelLayout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(jBtnPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-<<<<<<< Updated upstream
-                    .addComponent(CAJPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(SAJPanel, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(DoctorJPanel, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(PatientPanel, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-=======
-                    .addComponent(SAJPanel, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(DoctorJPanel, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(PatientPanel, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 133, Short.MAX_VALUE))
->>>>>>> Stashed changes
+                .addGroup(jBtnPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(btnPatient, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 133, Short.MAX_VALUE)
+                    .addComponent(btnPatientDetails, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+
                 .addContainerGap())
         );
         jBtnPanelLayout.setVerticalGroup(
             jBtnPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jBtnPanelLayout.createSequentialGroup()
                 .addGap(160, 160, 160)
-                .addComponent(PatientPanel)
+                .addComponent(btnPatient)
                 .addGap(18, 18, 18)
+                .addComponent(btnPatientDetails)
+                .addGap(17, 17, 17)
                 .addComponent(DoctorJPanel)
-                .addGap(27, 27, 27)
+                .addGap(18, 18, 18)
                 .addComponent(SAJPanel)
-<<<<<<< Updated upstream
-                .addGap(26, 26, 26)
-                .addComponent(CAJPanel)
-                .addContainerGap(235, Short.MAX_VALUE))
-=======
-                .addContainerGap(283, Short.MAX_VALUE))
->>>>>>> Stashed changes
+                .addContainerGap(253, Short.MAX_VALUE))
         );
 
         SplitPanel.setLeftComponent(jBtnPanel);
@@ -125,15 +124,14 @@ public class MainJFrame extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void PatientPanelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PatientPanelActionPerformed
+    private void btnPatientActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPatientActionPerformed
+        
         // TODO add your handling code here:
-        PatientJPanel patient = new PatientJPanel();
+        PatientJPanel patient= new PatientJPanel(historyP);
+                
         SplitPanel.setRightComponent(patient);
-    }//GEN-LAST:event_PatientPanelActionPerformed
-
-<<<<<<< Updated upstream
-=======
+    }//GEN-LAST:event_btnPatientActionPerformed
+    
     private void SAJPanelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SAJPanelActionPerformed
         // TODO add your handling code here:
        /* SytemAdmJPanel sa = new SytemAdmJPanel();
@@ -142,7 +140,13 @@ public class MainJFrame extends javax.swing.JFrame {
        SplitPanel.setRightComponent(sa);
     }//GEN-LAST:event_SAJPanelActionPerformed
 
->>>>>>> Stashed changes
+    private void btnPatientDetailsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPatientDetailsActionPerformed
+//        PatientHistory historyP = null;
+        // TODO add your handling code here:
+        PatientDetails patientDetails=new PatientDetails(historyP);
+        SplitPanel.setRightComponent(patientDetails);
+    }//GEN-LAST:event_btnPatientDetailsActionPerformed
+    
     /**
      * @param args the command line arguments
      */
@@ -179,14 +183,11 @@ public class MainJFrame extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-<<<<<<< Updated upstream
-    private javax.swing.JButton CAJPanel;
-=======
->>>>>>> Stashed changes
     private javax.swing.JButton DoctorJPanel;
-    private javax.swing.JButton PatientPanel;
     private javax.swing.JButton SAJPanel;
     private javax.swing.JSplitPane SplitPanel;
+    private javax.swing.JButton btnPatient;
+    private javax.swing.JButton btnPatientDetails;
     private javax.swing.JPanel jBtnPanel;
     private javax.swing.JPanel jWorkArea;
     // End of variables declaration//GEN-END:variables

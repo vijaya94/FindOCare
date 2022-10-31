@@ -47,19 +47,13 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="1" attributes="0">
+                  <Component id="SAJPanel" alignment="0" max="32767" attributes="0"/>
+                  <Component id="DoctorJPanel" alignment="0" max="32767" attributes="0"/>
+                  <Group type="102" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="1" attributes="0">
-<<<<<<< Updated upstream
-                          <Component id="CAJPanel" max="32767" attributes="0"/>
-                          <Component id="SAJPanel" alignment="0" max="32767" attributes="0"/>
-                          <Component id="DoctorJPanel" alignment="0" max="32767" attributes="0"/>
-                          <Component id="PatientPanel" alignment="0" max="32767" attributes="0"/>
-=======
-                          <Component id="SAJPanel" alignment="0" max="32767" attributes="0"/>
-                          <Component id="DoctorJPanel" alignment="0" max="32767" attributes="0"/>
-                          <Component id="PatientPanel" alignment="0" pref="133" max="32767" attributes="0"/>
->>>>>>> Stashed changes
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="btnPatient" alignment="1" pref="133" max="32767" attributes="0"/>
+                          <Component id="btnPatientDetails" alignment="0" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
@@ -69,29 +63,25 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="160" max="-2" attributes="0"/>
-                      <Component id="PatientPanel" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnPatient" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="btnPatientDetails" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
                       <Component id="DoctorJPanel" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Component id="SAJPanel" min="-2" max="-2" attributes="0"/>
-<<<<<<< Updated upstream
-                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
-                      <Component id="CAJPanel" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace pref="235" max="32767" attributes="0"/>
-=======
-                      <EmptySpace pref="283" max="32767" attributes="0"/>
->>>>>>> Stashed changes
+                      <EmptySpace pref="253" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
           </Layout>
           <SubComponents>
-            <Component class="javax.swing.JButton" name="PatientPanel">
+            <Component class="javax.swing.JButton" name="btnPatient">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Are you a patient?"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="PatientPanelActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnPatientActionPerformed"/>
               </Events>
             </Component>
             <Component class="javax.swing.JButton" name="DoctorJPanel">
@@ -103,17 +93,17 @@
               <Properties>
                 <Property name="text" type="java.lang.String" value="System Admin"/>
               </Properties>
-<<<<<<< Updated upstream
-            </Component>
-            <Component class="javax.swing.JButton" name="CAJPanel">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="Community Admin"/>
-              </Properties>
-=======
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SAJPanelActionPerformed"/>
               </Events>
->>>>>>> Stashed changes
+            </Component>
+            <Component class="javax.swing.JButton" name="btnPatientDetails">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="See Patient Details"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnPatientDetailsActionPerformed"/>
+              </Events>
             </Component>
           </SubComponents>
         </Container>
