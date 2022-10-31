@@ -3,9 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package officemanagementsystem;
+package ui;
 
 import javax.swing.JOptionPane;
+import model.PatientHistory;
 
 /**
  *
@@ -56,8 +57,6 @@ public class LoginPage extends javax.swing.JFrame {
             }
         });
 
-        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Users\\sajja\\Downloads\\download (1).jpg")); // NOI18N
-
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -107,7 +106,8 @@ public class LoginPage extends javax.swing.JFrame {
         String password=pass.getText();
         
         if(username.equals("admin") && password.equals("admin")){
-        PatientJPanel obj=new PatientJPanel();
+            PatientHistory historyP = null;
+        PatientJPanel obj= new PatientJPanel(historyP);
         obj.setVisible(true);
         dispose();
         }
