@@ -5,7 +5,6 @@
 package ui;
 
 import model.PatientHistory;
-
 /**
  *
  * @author HP
@@ -38,6 +37,9 @@ public class MainJFrame extends javax.swing.JFrame {
         DoctorJPanel = new javax.swing.JButton();
         SAJPanel = new javax.swing.JButton();
         btnPatientDetails = new javax.swing.JButton();
+        PatientPanel = new javax.swing.JButton();
+        SAJPanel = new javax.swing.JButton();
+        CAJPanel = new javax.swing.JButton();
         jWorkArea = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -52,6 +54,8 @@ public class MainJFrame extends javax.swing.JFrame {
         DoctorJPanel.setText("Are you a doctor?");
 
         SAJPanel.setText("System Admin");
+
+        CAJPanel.setText("Community Admin");
         SAJPanel.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 SAJPanelActionPerformed(evt);
@@ -76,6 +80,16 @@ public class MainJFrame extends javax.swing.JFrame {
                 .addGroup(jBtnPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(btnPatient, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 133, Short.MAX_VALUE)
                     .addComponent(btnPatientDetails, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jBtnPanelLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jBtnPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(CAJPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(SAJPanel, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(DoctorJPanel, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(PatientPanel, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(SAJPanel, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(DoctorJPanel, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(PatientPanel, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 133, Short.MAX_VALUE))
                 .addContainerGap())
         );
         jBtnPanelLayout.setVerticalGroup(
@@ -90,6 +104,15 @@ public class MainJFrame extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addComponent(SAJPanel)
                 .addContainerGap(253, Short.MAX_VALUE))
+                .addComponent(PatientPanel)
+                .addGap(18, 18, 18)
+                .addComponent(DoctorJPanel)
+                .addGap(27, 27, 27)
+                .addComponent(SAJPanel)
+                .addGap(26, 26, 26)
+                .addComponent(CAJPanel)
+                .addContainerGap(235, Short.MAX_VALUE))
+                .addContainerGap(283, Short.MAX_VALUE))
         );
 
         SplitPanel.setLeftComponent(jBtnPanel);
@@ -180,11 +203,13 @@ public class MainJFrame extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton DoctorJPanel;
-    private javax.swing.JButton SAJPanel;
-    private javax.swing.JSplitPane SplitPanel;
     private javax.swing.JButton btnPatient;
     private javax.swing.JButton btnPatientDetails;
+    private javax.swing.JButton CAJPanel;
+    private javax.swing.JButton DoctorJPanel;
+    private javax.swing.JButton PatientPanel;
+    private javax.swing.JButton SAJPanel;
+    private javax.swing.JSplitPane SplitPanel;
     private javax.swing.JPanel jBtnPanel;
     private javax.swing.JPanel jWorkArea;
     // End of variables declaration//GEN-END:variables

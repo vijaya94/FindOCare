@@ -10,7 +10,7 @@ import model.PatientHistory;
 
 /**
  *
- * @author Muhammad Taha Azam
+ * @author Rekha
  */
 public class DoctorAvailiability extends javax.swing.JFrame {
 

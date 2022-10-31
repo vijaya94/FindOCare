@@ -10,13 +10,14 @@ import model.PatientHistory;
 
 /**
  *
- * @author Muhammad Taha Azam
+ * @author Rekha
  */
 public class LoginPage extends javax.swing.JFrame {
 
     /**
      * Creates new form LoginPage
      */
+	 PatientHistory historyP;
     public LoginPage() {
         initComponents();
     }
@@ -106,8 +107,7 @@ public class LoginPage extends javax.swing.JFrame {
         String password=pass.getText();
         
         if(username.equals("admin") && password.equals("admin")){
-            PatientHistory historyP = null;
-        PatientJPanel obj= new PatientJPanel(historyP);
+        PatientJPanel obj=new PatientJPanel(historyP);
         obj.setVisible(true);
         dispose();
         }
