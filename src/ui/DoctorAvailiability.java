@@ -3,9 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package officemanagementsystem;
+package ui;
 
 import javax.swing.JOptionPane;
+import model.PatientHistory;
 
 /**
  *
@@ -158,7 +159,8 @@ public class DoctorAvailiability extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jLabel6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel6MouseClicked
- PatientJPanel obj=new PatientJPanel();
+        PatientHistory historyP = null;
+ PatientJPanel obj=new PatientJPanel(historyP);
         obj.setVisible(true);
         dispose();    }//GEN-LAST:event_jLabel6MouseClicked
 

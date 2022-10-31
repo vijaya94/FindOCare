@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package officemanagementsystem;
+package ui;
 
 /**
  *
  * @author Muhammad Taha Azam
  */
-public class OfficeManagementSystem {
+public class FindOCare {
 
     /**
      * @param args the command line arguments
