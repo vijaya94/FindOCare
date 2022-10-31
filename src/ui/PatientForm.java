@@ -14,7 +14,7 @@ import javax.swing.Timer;
 
 /**
  *
- * @author Muhammad Taha Azam
+ * @author Sajja
  */
 public class PatientForm extends javax.swing.JFrame {
 
