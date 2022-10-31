@@ -14,8 +14,7 @@ public class MainJFrame extends javax.swing.JFrame {
 
     /**
      * Creates new form MainJFrame
-     */
-    
+     */ 
     PatientHistory historyP;
     
     public MainJFrame() {
@@ -38,10 +37,12 @@ public class MainJFrame extends javax.swing.JFrame {
         DoctorJPanel = new javax.swing.JButton();
         SAJPanel = new javax.swing.JButton();
         btnPatientDetails = new javax.swing.JButton();
+        SAJPanel = new javax.swing.JButton();
+        CAJPanel = new javax.swing.JButton();
         jWorkArea = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-
+        
         btnPatient.setText("Are you a patient?");
         btnPatient.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -57,6 +58,7 @@ public class MainJFrame extends javax.swing.JFrame {
                 SAJPanelActionPerformed(evt);
             }
         });
+        
 
         btnPatientDetails.setText("See Patient Details");
         btnPatientDetails.addActionListener(new java.awt.event.ActionListener() {
@@ -64,6 +66,7 @@ public class MainJFrame extends javax.swing.JFrame {
                 btnPatientDetailsActionPerformed(evt);
             }
         });
+
 
         javax.swing.GroupLayout jBtnPanelLayout = new javax.swing.GroupLayout(jBtnPanel);
         jBtnPanel.setLayout(jBtnPanelLayout);
@@ -76,6 +79,7 @@ public class MainJFrame extends javax.swing.JFrame {
                 .addGroup(jBtnPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(btnPatient, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 133, Short.MAX_VALUE)
                     .addComponent(btnPatientDetails, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+
                 .addContainerGap())
         );
         jBtnPanelLayout.setVerticalGroup(
@@ -120,7 +124,6 @@ public class MainJFrame extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
     private void btnPatientActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPatientActionPerformed
         
         // TODO add your handling code here:
@@ -128,7 +131,7 @@ public class MainJFrame extends javax.swing.JFrame {
                 
         SplitPanel.setRightComponent(patient);
     }//GEN-LAST:event_btnPatientActionPerformed
-
+    
     private void SAJPanelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SAJPanelActionPerformed
         // TODO add your handling code here:
        /* SytemAdmJPanel sa = new SytemAdmJPanel();
@@ -143,7 +146,7 @@ public class MainJFrame extends javax.swing.JFrame {
         PatientDetails patientDetails=new PatientDetails(historyP);
         SplitPanel.setRightComponent(patientDetails);
     }//GEN-LAST:event_btnPatientDetailsActionPerformed
-
+    
     /**
      * @param args the command line arguments
      */

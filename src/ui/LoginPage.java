@@ -106,7 +106,7 @@ public class LoginPage extends javax.swing.JFrame {
         String password=pass.getText();
         
         if(username.equals("admin") && password.equals("admin")){
-            PatientHistory historyP = null;
+        PatientHistory historyP = null;
         PatientJPanel obj= new PatientJPanel(historyP);
         obj.setVisible(true);
         dispose();
