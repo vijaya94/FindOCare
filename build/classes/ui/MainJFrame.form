@@ -40,7 +40,10 @@
         <Container class="javax.swing.JPanel" name="jBtnPanel">
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
           <Properties>
@@ -49,6 +52,9 @@
             </Property>
           </Properties>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -63,6 +69,7 @@
               <Group type="103" groupAlignment="0" attributes="0">
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                   <Group type="102" alignment="1" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="1" attributes="0">
@@ -71,6 +78,8 @@
                           <Component id="DoctorJPanel" alignment="0" max="32767" attributes="0"/>
                           <Component id="PatientPanel" alignment="0" max="32767" attributes="0"/>
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
                   <Group type="102" attributes="0">
@@ -88,6 +97,9 @@
                               <Component id="jBtnAdminPatient" alignment="0" pref="263" max="32767" attributes="0"/>
                           </Group>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -101,6 +113,7 @@
                   <Group type="102" alignment="0" attributes="0">
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                       <EmptySpace min="-2" pref="160" max="-2" attributes="0"/>
                       <Component id="PatientPanel" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
@@ -111,6 +124,8 @@
                       <Component id="CAJPanel" min="-2" max="-2" attributes="0"/>
                       <EmptySpace pref="235" max="32767" attributes="0"/>
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
                       <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
@@ -129,6 +144,9 @@
                       <Component id="jBtnAdminPatient" min="-2" max="-2" attributes="0"/>
                       <EmptySpace pref="171" max="32767" attributes="0"/>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -141,7 +159,11 @@
               <Properties>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 <Property name="text" type="java.lang.String" value="Are you a patient?"/>
+=======
+                <Property name="text" type="java.lang.String" value="Patient Register"/>
+>>>>>>> Stashed changes
 =======
                 <Property name="text" type="java.lang.String" value="Patient Register"/>
 >>>>>>> Stashed changes
@@ -153,6 +175,7 @@
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="PatientPanelActionPerformed"/>
               </Events>
             </Component>
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
             <Component class="javax.swing.JButton" name="DoctorJPanel">
@@ -170,6 +193,8 @@
                 <Property name="text" type="java.lang.String" value="Community Admin"/>
               </Properties>
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
             <Component class="javax.swing.JButton" name="jBtnDoctor">
@@ -220,6 +245,9 @@
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBtnCommAdmnActionPerformed"/>
               </Events>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -229,7 +257,10 @@
         <Container class="javax.swing.JPanel" name="jWorkArea">
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
           <Properties>
@@ -238,6 +269,9 @@
             </Property>
           </Properties>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -252,7 +286,11 @@
               <Group type="103" groupAlignment="0" attributes="0">
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                   <EmptySpace min="0" pref="714" max="32767" attributes="0"/>
+=======
+                  <EmptySpace min="0" pref="921" max="32767" attributes="0"/>
+>>>>>>> Stashed changes
 =======
                   <EmptySpace min="0" pref="921" max="32767" attributes="0"/>
 >>>>>>> Stashed changes

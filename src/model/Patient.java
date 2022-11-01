@@ -10,6 +10,7 @@ package model;
  */
 public class Patient {
     private String PatientName;
+<<<<<<< Updated upstream
     private String Cnic;
     private String PIllness;
     private String ChooseDoctor;
@@ -23,6 +24,55 @@ public class Patient {
     public void setDiagnosis(String diagnosis) {
         this.diagnosis = diagnosis;
     }
+=======
+    
+    public String getChooseCity() {
+        return ChooseCity;
+    }
+
+    public void setChooseCity(String ChooseCity) {
+        this.ChooseCity = ChooseCity;
+    }
+
+    public String getChooseHospital() {
+        return ChooseHospital;
+    }
+
+    public void setChooseHospital(String ChooseHospital) {
+        this.ChooseHospital = ChooseHospital;
+    }
+
+    public String getPhoneNumber() {
+        return PhoneNumber;
+    }
+
+    public void setPhoneNumber(String PhoneNumber) {
+        this.PhoneNumber = PhoneNumber;
+    }
+
+    public String getAddress() {
+        return Address;
+    }
+
+    public void setAddress(String Address) {
+        this.Address = Address;
+    }
+    
+    private String ChooseCity;
+    private String ChooseHospital;
+    private String PhoneNumber;
+    private String Address;
+    private String Diagnosis;
+
+    public String getDiagnosis() {
+        return Diagnosis;
+    }
+
+    public void setDiagnosis(String Diagnosis) {
+        this.Diagnosis = Diagnosis;
+    }
+    
+>>>>>>> Stashed changes
 
     public String getPatientName() {
         return PatientName;
@@ -63,11 +113,29 @@ public class Patient {
     public void setChooseDoctor(String ChooseDoctor) {
         this.ChooseDoctor = ChooseDoctor;
     }
+<<<<<<< Updated upstream
     
     @Override
+=======
+    private String FName;
+
+   
+    private String Cnic;
+    private String PIllness;
+    private String ChooseDoctor;
+   
+   @Override
+>>>>>>> Stashed changes
     public String toString(){
         return PatientName;
     }
 
+<<<<<<< Updated upstream
 }
 
+=======
+
+}
+
+
+>>>>>>> Stashed changes

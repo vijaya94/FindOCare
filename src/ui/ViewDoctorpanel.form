@@ -54,14 +54,24 @@
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace min="-2" pref="88" max="-2" attributes="0"/>
+<<<<<<< Updated upstream
                                   <Group type="103" groupAlignment="1" attributes="0">
                                       <Component id="jLabel3" min="-2" pref="76" max="-2" attributes="0"/>
                                       <Component id="jLabel4" alignment="1" min="-2" max="-2" attributes="0"/>
+=======
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel3" min="-2" pref="76" max="-2" attributes="0"/>
+                                      <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+>>>>>>> Stashed changes
                                   </Group>
                                   <EmptySpace min="-2" pref="90" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="1" attributes="0">
                                       <Component id="jTextPName" alignment="1" min="-2" pref="186" max="-2" attributes="0"/>
+<<<<<<< Updated upstream
                                       <Component id="jTextPFather" alignment="1" min="-2" pref="186" max="-2" attributes="0"/>
+=======
+                                      <Component id="jTextPcity" alignment="1" min="-2" pref="186" max="-2" attributes="0"/>
+>>>>>>> Stashed changes
                                   </Group>
                               </Group>
                           </Group>
@@ -75,7 +85,11 @@
                               <Group type="102" alignment="0" attributes="0">
                                   <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="90" max="-2" attributes="0"/>
+<<<<<<< Updated upstream
                                   <Component id="jTextCN" min="-2" pref="186" max="-2" attributes="0"/>
+=======
+                                  <Component id="jTextphospital" min="-2" pref="186" max="-2" attributes="0"/>
+>>>>>>> Stashed changes
                               </Group>
                           </Group>
                       </Group>
@@ -95,12 +109,20 @@
                   <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jTextPName" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+<<<<<<< Updated upstream
                   <Component id="jTextCN" alignment="3" min="-2" max="-2" attributes="0"/>
+=======
+                  <Component id="jTextphospital" alignment="3" min="-2" max="-2" attributes="0"/>
+>>>>>>> Stashed changes
               </Group>
               <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+<<<<<<< Updated upstream
                   <Component id="jTextPFather" alignment="3" min="-2" max="-2" attributes="0"/>
+=======
+                  <Component id="jTextPcity" alignment="3" min="-2" max="-2" attributes="0"/>
+>>>>>>> Stashed changes
                   <Component id="jTextPIll" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
@@ -136,8 +158,13 @@
             <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
               <Table columnCount="5" rowCount="4">
                 <Column editable="true" title="Patient Name" type="java.lang.Object"/>
+<<<<<<< Updated upstream
                 <Column editable="true" title="Father&apos;s Name" type="java.lang.Object"/>
                 <Column editable="true" title="CNIC" type="java.lang.Object"/>
+=======
+                <Column editable="true" title="Patient&apos;s City" type="java.lang.Object"/>
+                <Column editable="true" title="Hospital" type="java.lang.Object"/>
+>>>>>>> Stashed changes
                 <Column editable="true" title="Patient Illness" type="java.lang.Object"/>
                 <Column editable="true" title="Diagnosis" type="java.lang.Object"/>
               </Table>
@@ -198,6 +225,7 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel4">
       <Properties>
+<<<<<<< Updated upstream
         <Property name="text" type="java.lang.String" value="Father&apos;s Name"/>
       </Properties>
     </Component>
@@ -211,6 +239,21 @@
     <Component class="javax.swing.JTextField" name="jTextCN">
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextCNActionPerformed"/>
+=======
+        <Property name="text" type="java.lang.String" value="Patient&apos;s City"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextPcity">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Hospital"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextphospital">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextphospitalActionPerformed"/>
+>>>>>>> Stashed changes
       </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel6">

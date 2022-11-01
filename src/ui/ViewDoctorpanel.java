@@ -45,9 +45,15 @@ public class ViewDoctorpanel extends javax.swing.JPanel {
         jLabel3 = new javax.swing.JLabel();
         jTextPName = new javax.swing.JTextField();
         jLabel4 = new javax.swing.JLabel();
+<<<<<<< Updated upstream
         jTextPFather = new javax.swing.JTextField();
         jLabel5 = new javax.swing.JLabel();
         jTextCN = new javax.swing.JTextField();
+=======
+        jTextPcity = new javax.swing.JTextField();
+        jLabel5 = new javax.swing.JLabel();
+        jTextphospital = new javax.swing.JTextField();
+>>>>>>> Stashed changes
         jLabel6 = new javax.swing.JLabel();
         jTextPIll = new javax.swing.JTextField();
         jBtnView = new javax.swing.JButton();
@@ -67,7 +73,11 @@ public class ViewDoctorpanel extends javax.swing.JPanel {
                 {null, null, null, null, null}
             },
             new String [] {
+<<<<<<< Updated upstream
                 "Patient Name", "Father's Name", "CNIC", "Patient Illness", "Diagnosis"
+=======
+                "Patient Name", "Patient's City", "Hospital", "Patient Illness", "Diagnosis"
+>>>>>>> Stashed changes
             }
         ));
         jScrollPane1.setViewportView(tblPatient);
@@ -83,6 +93,7 @@ public class ViewDoctorpanel extends javax.swing.JPanel {
             }
         });
 
+<<<<<<< Updated upstream
         jLabel4.setText("Father's Name");
 
         jLabel5.setText("CNIC Number");
@@ -90,6 +101,15 @@ public class ViewDoctorpanel extends javax.swing.JPanel {
         jTextCN.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextCNActionPerformed(evt);
+=======
+        jLabel4.setText("Patient's City");
+
+        jLabel5.setText("Hospital");
+
+        jTextphospital.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextphospitalActionPerformed(evt);
+>>>>>>> Stashed changes
             }
         });
 
@@ -168,13 +188,21 @@ public class ViewDoctorpanel extends javax.swing.JPanel {
                                     .addComponent(jTextPdiagnosis, javax.swing.GroupLayout.PREFERRED_SIZE, 186, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
                                     .addGap(88, 88, 88)
+<<<<<<< Updated upstream
                                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+=======
+                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+>>>>>>> Stashed changes
                                         .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addComponent(jLabel4))
                                     .addGap(90, 90, 90)
                                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                         .addComponent(jTextPName, javax.swing.GroupLayout.PREFERRED_SIZE, 186, javax.swing.GroupLayout.PREFERRED_SIZE)
+<<<<<<< Updated upstream
                                         .addComponent(jTextPFather, javax.swing.GroupLayout.PREFERRED_SIZE, 186, javax.swing.GroupLayout.PREFERRED_SIZE))))
+=======
+                                        .addComponent(jTextPcity, javax.swing.GroupLayout.PREFERRED_SIZE, 186, javax.swing.GroupLayout.PREFERRED_SIZE))))
+>>>>>>> Stashed changes
                             .addGap(75, 75, 75)
                             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                 .addGroup(layout.createSequentialGroup()
@@ -184,7 +212,11 @@ public class ViewDoctorpanel extends javax.swing.JPanel {
                                 .addGroup(layout.createSequentialGroup()
                                     .addComponent(jLabel5)
                                     .addGap(90, 90, 90)
+<<<<<<< Updated upstream
                                     .addComponent(jTextCN, javax.swing.GroupLayout.PREFERRED_SIZE, 186, javax.swing.GroupLayout.PREFERRED_SIZE))))))
+=======
+                                    .addComponent(jTextphospital, javax.swing.GroupLayout.PREFERRED_SIZE, 186, javax.swing.GroupLayout.PREFERRED_SIZE))))))
+>>>>>>> Stashed changes
                 .addContainerGap(147, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -197,11 +229,19 @@ public class ViewDoctorpanel extends javax.swing.JPanel {
                     .addComponent(jLabel3)
                     .addComponent(jTextPName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel5)
+<<<<<<< Updated upstream
                     .addComponent(jTextCN, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(20, 20, 20)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel4)
                     .addComponent(jTextPFather, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+=======
+                    .addComponent(jTextphospital, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(20, 20, 20)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel4)
+                    .addComponent(jTextPcity, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+>>>>>>> Stashed changes
                     .addComponent(jTextPIll, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel6))
                 .addGap(21, 21, 21)
@@ -228,9 +268,15 @@ public class ViewDoctorpanel extends javax.swing.JPanel {
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextPIllActionPerformed
 
+<<<<<<< Updated upstream
     private void jTextCNActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextCNActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextCNActionPerformed
+=======
+    private void jTextphospitalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextphospitalActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextphospitalActionPerformed
+>>>>>>> Stashed changes
 
     private void jBtnViewActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnViewActionPerformed
         // TODO add your handling code here:
@@ -243,8 +289,13 @@ public class ViewDoctorpanel extends javax.swing.JPanel {
         Patient p = (Patient) model.getValueAt(selectedRowIndex, 0);
 
         jTextPName.setText(String.valueOf(p.getPatientName()));
+<<<<<<< Updated upstream
         jTextPFather.setText(String.valueOf(p.getFName()));
         jTextCN.setText(String.valueOf(p.getCnic()));
+=======
+        jTextPcity.setText(String.valueOf(p.getChooseCity()));
+        jTextphospital.setText(String.valueOf(p.getChooseHospital()));
+>>>>>>> Stashed changes
         jTextPIll.setText(String.valueOf(p.getPIllness()));
         
     }//GEN-LAST:event_jBtnViewActionPerformed
@@ -255,10 +306,17 @@ public class ViewDoctorpanel extends javax.swing.JPanel {
 
     private void jTextPSearchKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextPSearchKeyPressed
         // TODO add your handling code here:
+<<<<<<< Updated upstream
         jTextCN.setText("");
         jTextPName.setText("");
         jTextPIll.setText("");
         jTextPFather.setText("");
+=======
+        jTextphospital.setText("");
+        jTextPName.setText("");
+        jTextPIll.setText("");
+        jTextPcity.setText("");
+>>>>>>> Stashed changes
         
 
         DefaultTableModel model = (DefaultTableModel) tblPatient.getModel();
@@ -274,6 +332,7 @@ public class ViewDoctorpanel extends javax.swing.JPanel {
     private void btnSubmitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSubmitActionPerformed
         String diagnosis=jTextPdiagnosis.getText();
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         
 
         Patient p = historyP.addNewPatient();
@@ -281,6 +340,8 @@ public class ViewDoctorpanel extends javax.swing.JPanel {
 
         p.setDiagnosis(dadd);
 =======
+=======
+>>>>>>> Stashed changes
         int selectedRowIndex = tblPatient.getSelectedRow();
         DefaultTableModel model = (DefaultTableModel) tblPatient.getModel();
         Patient p = (Patient) model.getValueAt(selectedRowIndex, 0);
@@ -291,6 +352,9 @@ public class ViewDoctorpanel extends javax.swing.JPanel {
         
 
         //p.setDiagnosis(dadd);
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
        
 
@@ -298,6 +362,10 @@ public class ViewDoctorpanel extends javax.swing.JPanel {
 
         jTextPdiagnosis.setText("");
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+        populateTablePatient();
+>>>>>>> Stashed changes
 =======
         populateTablePatient();
 >>>>>>> Stashed changes
@@ -318,12 +386,21 @@ public class ViewDoctorpanel extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabeldiagnosis;
     private javax.swing.JScrollPane jScrollPane1;
+<<<<<<< Updated upstream
     private javax.swing.JTextField jTextCN;
     private javax.swing.JTextField jTextPFather;
     private javax.swing.JTextField jTextPIll;
     private javax.swing.JTextField jTextPName;
     private javax.swing.JTextField jTextPSearch;
     private javax.swing.JTextField jTextPdiagnosis;
+=======
+    private javax.swing.JTextField jTextPIll;
+    private javax.swing.JTextField jTextPName;
+    private javax.swing.JTextField jTextPSearch;
+    private javax.swing.JTextField jTextPcity;
+    private javax.swing.JTextField jTextPdiagnosis;
+    private javax.swing.JTextField jTextphospital;
+>>>>>>> Stashed changes
     private javax.swing.JTable tblPatient;
     // End of variables declaration//GEN-END:variables
 
@@ -336,12 +413,19 @@ public class ViewDoctorpanel extends javax.swing.JPanel {
             
             Object[] rowp=new Object[5];
             rowp[0]=p;
+<<<<<<< Updated upstream
             rowp[1]=p.getFName();
             rowp[2]=p.getCnic();
             rowp[3]=p.getPIllness();
 <<<<<<< Updated upstream
             rowp[4]=p.getChooseDoctor();
 =======
+            rowp[4]=p.getDiagnosis();
+>>>>>>> Stashed changes
+=======
+            rowp[1]=p.getChooseCity();
+            rowp[2]=p.getChooseHospital();
+            rowp[3]=p.getPIllness();
             rowp[4]=p.getDiagnosis();
 >>>>>>> Stashed changes
             

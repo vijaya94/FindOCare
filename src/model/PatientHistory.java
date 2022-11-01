@@ -33,8 +33,14 @@ public class PatientHistory {
         historyP.add(newPatient);
         return newPatient;
      }
+<<<<<<< Updated upstream
     
     public void deletePatient(Patient p){
         historyP.remove(p);
     }  
+=======
+    public void deletePatient(Patient p){
+        historyP.remove(p);
+    } 
+>>>>>>> Stashed changes
 }

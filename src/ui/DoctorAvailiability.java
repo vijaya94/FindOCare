@@ -8,11 +8,14 @@ package ui;
 import javax.swing.JOptionPane;
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 /**
  *
  * @author Muhammad Taha Azam
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 import model.PatientHistory;
@@ -21,6 +24,9 @@ import model.PatientHistory;
  *
  * @author Sajja
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -32,6 +38,11 @@ public class DoctorAvailiability extends javax.swing.JFrame {
      */
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+    PatientHistory historyP;
+    
+>>>>>>> Stashed changes
 =======
     PatientHistory historyP;
     
@@ -184,7 +195,11 @@ public class DoctorAvailiability extends javax.swing.JFrame {
     private void jLabel6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel6MouseClicked
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
  PatientJPanel obj=new PatientJPanel();
+=======
+ PatientJPanel obj=new PatientJPanel(historyP);
+>>>>>>> Stashed changes
 =======
  PatientJPanel obj=new PatientJPanel(historyP);
 >>>>>>> Stashed changes
