@@ -4,6 +4,9 @@
  */
 package ui;
 
+import model.DoctorHistory;
+import model.PatientHistory;
+
 /**
  *
  * @author HP
@@ -13,8 +16,13 @@ public class MainJFrame extends javax.swing.JFrame {
     /**
      * Creates new form MainJFrame
      */
+    DoctorHistory history;
+    PatientHistory historyP;
+    
     public MainJFrame() {
         initComponents();
+        history = new DoctorHistory();
+        historyP = new PatientHistory();
     }
 
     /**
@@ -31,13 +39,13 @@ public class MainJFrame extends javax.swing.JFrame {
         PatientPanel = new javax.swing.JButton();
         DoctorJPanel = new javax.swing.JButton();
         SAJPanel = new javax.swing.JButton();
-<<<<<<< Updated upstream
-        CAJPanel = new javax.swing.JButton();
-=======
->>>>>>> Stashed changes
+        jLabel1 = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
         jWorkArea = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        jBtnPanel.setBackground(new java.awt.Color(255, 153, 153));
 
         PatientPanel.setText("Are you a patient?");
         PatientPanel.addActionListener(new java.awt.event.ActionListener() {
@@ -49,61 +57,69 @@ public class MainJFrame extends javax.swing.JFrame {
         DoctorJPanel.setText("Are you a doctor?");
 
         SAJPanel.setText("System Admin");
-<<<<<<< Updated upstream
-
-        CAJPanel.setText("Community Admin");
-=======
         SAJPanel.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 SAJPanelActionPerformed(evt);
             }
         });
->>>>>>> Stashed changes
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/Optimized-FindOCare.JPG"))); // NOI18N
+        jLabel1.setText("jLabel1");
+
+        jButton1.setText("See Patient Details");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jBtnPanelLayout = new javax.swing.GroupLayout(jBtnPanel);
         jBtnPanel.setLayout(jBtnPanelLayout);
         jBtnPanelLayout.setHorizontalGroup(
             jBtnPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jBtnPanelLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jBtnPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-<<<<<<< Updated upstream
-                    .addComponent(CAJPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(SAJPanel, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(DoctorJPanel, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(PatientPanel, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-=======
-                    .addComponent(SAJPanel, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(DoctorJPanel, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(PatientPanel, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 133, Short.MAX_VALUE))
->>>>>>> Stashed changes
+            .addGroup(jBtnPanelLayout.createSequentialGroup()
+                .addGroup(jBtnPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jBtnPanelLayout.createSequentialGroup()
+                        .addContainerGap()
+                        .addGroup(jBtnPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(SAJPanel, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(DoctorJPanel, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(PatientPanel, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                    .addGroup(jBtnPanelLayout.createSequentialGroup()
+                        .addGap(21, 21, 21)
+                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
+            .addGroup(jBtnPanelLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 147, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jBtnPanelLayout.setVerticalGroup(
             jBtnPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jBtnPanelLayout.createSequentialGroup()
-                .addGap(160, 160, 160)
-                .addComponent(PatientPanel)
+                .addGap(39, 39, 39)
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 103, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
+                .addComponent(PatientPanel)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jButton1)
+                .addGap(21, 21, 21)
                 .addComponent(DoctorJPanel)
-                .addGap(27, 27, 27)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(SAJPanel)
-<<<<<<< Updated upstream
-                .addGap(26, 26, 26)
-                .addComponent(CAJPanel)
-                .addContainerGap(235, Short.MAX_VALUE))
-=======
-                .addContainerGap(283, Short.MAX_VALUE))
->>>>>>> Stashed changes
+                .addContainerGap(261, Short.MAX_VALUE))
         );
 
         SplitPanel.setLeftComponent(jBtnPanel);
+
+        jWorkArea.setBackground(new java.awt.Color(255, 153, 153));
 
         javax.swing.GroupLayout jWorkAreaLayout = new javax.swing.GroupLayout(jWorkArea);
         jWorkArea.setLayout(jWorkAreaLayout);
         jWorkAreaLayout.setHorizontalGroup(
             jWorkAreaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 714, Short.MAX_VALUE)
+            .addGap(0, 964, Short.MAX_VALUE)
         );
         jWorkAreaLayout.setVerticalGroup(
             jWorkAreaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -128,12 +144,10 @@ public class MainJFrame extends javax.swing.JFrame {
 
     private void PatientPanelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PatientPanelActionPerformed
         // TODO add your handling code here:
-        PatientJPanel patient = new PatientJPanel();
+        PatientJPanel patient = new PatientJPanel(historyP);
         SplitPanel.setRightComponent(patient);
     }//GEN-LAST:event_PatientPanelActionPerformed
 
-<<<<<<< Updated upstream
-=======
     private void SAJPanelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SAJPanelActionPerformed
         // TODO add your handling code here:
        /* SytemAdmJPanel sa = new SytemAdmJPanel();
@@ -142,7 +156,12 @@ public class MainJFrame extends javax.swing.JFrame {
        SplitPanel.setRightComponent(sa);
     }//GEN-LAST:event_SAJPanelActionPerformed
 
->>>>>>> Stashed changes
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // TODO add your handling code here:
+        PatientDetails patientDetails=new PatientDetails(historyP);
+        SplitPanel.setRightComponent(patientDetails);
+    }//GEN-LAST:event_jButton1ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -179,15 +198,13 @@ public class MainJFrame extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-<<<<<<< Updated upstream
-    private javax.swing.JButton CAJPanel;
-=======
->>>>>>> Stashed changes
     private javax.swing.JButton DoctorJPanel;
     private javax.swing.JButton PatientPanel;
     private javax.swing.JButton SAJPanel;
     private javax.swing.JSplitPane SplitPanel;
     private javax.swing.JPanel jBtnPanel;
+    private javax.swing.JButton jButton1;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jWorkArea;
     // End of variables declaration//GEN-END:variables
 }

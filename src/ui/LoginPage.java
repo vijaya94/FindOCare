@@ -6,16 +6,19 @@
 package ui;
 
 import javax.swing.JOptionPane;
+import model.PatientHistory;
 
 /**
  *
- * @author Muhammad Taha Azam
+ * @author Sajja
  */
 public class LoginPage extends javax.swing.JFrame {
 
     /**
      * Creates new form LoginPage
      */
+    PatientHistory historyP;
+
     public LoginPage() {
         initComponents();
     }
@@ -105,7 +108,7 @@ public class LoginPage extends javax.swing.JFrame {
         String password=pass.getText();
         
         if(username.equals("admin") && password.equals("admin")){
-        PatientJPanel obj=new PatientJPanel();
+        PatientJPanel obj=new PatientJPanel(historyP);
         obj.setVisible(true);
         dispose();
         }
