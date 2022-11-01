@@ -26,13 +26,13 @@ public class DoctorHistory {
         this.history = history;
     }
     
-     public Doctor addNewEmployee(){
+     public Doctor addNewDoctor(){
         Doctor newDoctor = new Doctor();
         history.add(newDoctor);
         return newDoctor;
     }
     
-    public void deleteEmployee(Doctor d){
+    public void deleteDoctor(Doctor d){
         history.remove(d);
     }
     

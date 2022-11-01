@@ -10,13 +10,15 @@ import model.PatientHistory;
 
 /**
  *
- * @author Rekha
+ * @author Sajja
  */
 public class DoctorAvailiability extends javax.swing.JFrame {
 
     /**
      * Creates new form Module2
      */
+    PatientHistory historyP;
+    
     public DoctorAvailiability() {
         initComponents();
     }
@@ -159,7 +161,6 @@ public class DoctorAvailiability extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jLabel6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel6MouseClicked
-        PatientHistory historyP = null;
  PatientJPanel obj=new PatientJPanel(historyP);
         obj.setVisible(true);
         dispose();    }//GEN-LAST:event_jLabel6MouseClicked

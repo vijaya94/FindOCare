@@ -10,14 +10,15 @@ import model.PatientHistory;
 
 /**
  *
- * @author Rekha
+ * @author Sajja
  */
 public class LoginPage extends javax.swing.JFrame {
 
     /**
      * Creates new form LoginPage
      */
-	 PatientHistory historyP;
+    PatientHistory historyP;
+
     public LoginPage() {
         initComponents();
     }

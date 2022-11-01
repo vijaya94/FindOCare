@@ -4,6 +4,14 @@
  */
 package ui;
 
+import javax.swing.JOptionPane;
+import javax.swing.RowFilter;
+import javax.swing.table.DefaultTableModel;
+import javax.swing.table.TableRowSorter;
+import model.Doctor;
+import model.Hospital;
+import model.HospitalHistory;
+
 /**
  *
  * @author HP
@@ -13,8 +21,13 @@ public class CommunityAdminJPanel extends javax.swing.JPanel {
     /**
      * Creates new form CommunityAdminJPanel
      */
-    public CommunityAdminJPanel() {
+    HospitalHistory historyH;
+    
+    public CommunityAdminJPanel(HospitalHistory historyH) {
         initComponents();
+        
+        this.historyH = historyH;
+        populateTable();
     }
 
     /**
@@ -27,9 +40,23 @@ public class CommunityAdminJPanel extends javax.swing.JPanel {
     private void initComponents() {
 
         jScrollPane1 = new javax.swing.JScrollPane();
-        jTable1 = new javax.swing.JTable();
+        tblHospital = new javax.swing.JTable();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        jTextHName = new javax.swing.JTextField();
+        jTextHCity = new javax.swing.JTextField();
+        jTextHCountry = new javax.swing.JTextField();
+        jLabel4 = new javax.swing.JLabel();
+        jTextHSearch = new javax.swing.JTextField();
+        jBtnViewH = new javax.swing.JButton();
+        jBtnDltH = new javax.swing.JButton();
+        jBtnUpdateH = new javax.swing.JButton();
+        jBtnAddHosptl = new javax.swing.JButton();
 
-        jTable1.setModel(new javax.swing.table.DefaultTableModel(
+        setBackground(new java.awt.Color(255, 153, 153));
+
+        tblHospital.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null},
                 {null, null, null},
@@ -37,32 +64,245 @@ public class CommunityAdminJPanel extends javax.swing.JPanel {
                 {null, null, null}
             },
             new String [] {
-                "Country Name", "City Name", "Hospital Name"
+                "Hospital Name", "City Name", "Country Name"
             }
         ));
-        jScrollPane1.setViewportView(jTable1);
+        jScrollPane1.setViewportView(tblHospital);
+
+        jLabel1.setText("Country Name");
+
+        jLabel2.setText("City Name");
+
+        jLabel3.setText("Hospital Name");
+
+        jTextHName.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextHNameActionPerformed(evt);
+            }
+        });
+
+        jTextHCity.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextHCityActionPerformed(evt);
+            }
+        });
+
+        jLabel4.setText("Search Hospital");
+
+        jTextHSearch.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyPressed(java.awt.event.KeyEvent evt) {
+                jTextHSearchKeyPressed(evt);
+            }
+        });
+
+        jBtnViewH.setText("View Hospitals");
+        jBtnViewH.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jBtnViewHActionPerformed(evt);
+            }
+        });
+
+        jBtnDltH.setText("Delete Hospitals");
+        jBtnDltH.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jBtnDltHActionPerformed(evt);
+            }
+        });
+
+        jBtnUpdateH.setText("Update Hospitals");
+        jBtnUpdateH.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jBtnUpdateHActionPerformed(evt);
+            }
+        });
+
+        jBtnAddHosptl.setText("Add New Hospital");
+        jBtnAddHosptl.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jBtnAddHosptlActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(101, 101, 101)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 500, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(106, Short.MAX_VALUE))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(206, 206, 206)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel2)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel3)
+                                    .addComponent(jLabel1))
+                                .addGap(88, 88, 88)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addComponent(jTextHName, javax.swing.GroupLayout.DEFAULT_SIZE, 153, Short.MAX_VALUE)
+                                    .addComponent(jTextHCity)
+                                    .addComponent(jTextHCountry)))))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(57, 57, 57)
+                        .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 106, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(jTextHSearch, javax.swing.GroupLayout.PREFERRED_SIZE, 165, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(147, 147, 147)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(jBtnViewH)
+                                .addGap(34, 34, 34)
+                                .addComponent(jBtnDltH)
+                                .addGap(31, 31, 31)
+                                .addComponent(jBtnUpdateH)
+                                .addGap(31, 31, 31)
+                                .addComponent(jBtnAddHosptl))
+                            .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 500, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addContainerGap(157, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(91, 91, 91)
+                .addGap(28, 28, 28)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jBtnViewH)
+                    .addComponent(jBtnDltH)
+                    .addComponent(jBtnUpdateH)
+                    .addComponent(jBtnAddHosptl))
+                .addGap(18, 18, 18)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 111, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(358, Short.MAX_VALUE))
+                .addGap(29, 29, 29)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel4)
+                    .addComponent(jTextHSearch, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(57, 57, 57)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jTextHName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel3))
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel2)
+                    .addComponent(jTextHCity, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jTextHCountry, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel1))
+                .addContainerGap(171, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
+    private void jTextHNameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextHNameActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextHNameActionPerformed
+
+    private void jTextHCityActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextHCityActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextHCityActionPerformed
+
+    private void jBtnDltHActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnDltHActionPerformed
+        // TODO add your handling code here:
+       int selectedRowIndex = tblHospital.getSelectedRow();
+       if (selectedRowIndex <0){
+           JOptionPane.showMessageDialog(this, "Please select a row to delete.");
+           return;
+       }
+       DefaultTableModel model = (DefaultTableModel) tblHospital.getModel();
+       Hospital hs = (Hospital) model.getValueAt(selectedRowIndex, 0);
+       
+       historyH.deleteHospital(hs);
+       JOptionPane.showMessageDialog(this, "Selected hospital details are deleted.");
+       
+       populateTable();
+    }//GEN-LAST:event_jBtnDltHActionPerformed
+
+    private void jBtnAddHosptlActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnAddHosptlActionPerformed
+        // TODO add your handling code here:
+        AddHospitalPanel obj = new AddHospitalPanel(historyH);
+        obj.setVisible(true);
+    }//GEN-LAST:event_jBtnAddHosptlActionPerformed
+
+    private void jBtnViewHActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnViewHActionPerformed
+        // TODO add your handling code here:
+       int selectedRowIndex = tblHospital.getSelectedRow();
+       if (selectedRowIndex <0){
+           JOptionPane.showMessageDialog(this, "Please select a row to view.");
+           return;
+       }
+       DefaultTableModel model = (DefaultTableModel) tblHospital.getModel();
+       Hospital hosptl = (Hospital) model.getValueAt(selectedRowIndex, 0);
+       
+       jTextHName.setText(hosptl.gethName());
+       jTextHCity.setText(String.valueOf(hosptl.gethCity()));
+       jTextHCountry.setText(String.valueOf(hosptl.gethCountry()));
+                               
+    }//GEN-LAST:event_jBtnViewHActionPerformed
+
+    private void jTextHSearchKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextHSearchKeyPressed
+        // TODO add your handling code here:
+        jTextHCity.setText("");
+        jTextHCountry.setText("");
+        jTextHName.setText("");        
+        
+        DefaultTableModel model = (DefaultTableModel) tblHospital.getModel();
+        TableRowSorter<DefaultTableModel> ts = new TableRowSorter<DefaultTableModel>(model);
+        tblHospital.setRowSorter(ts);
+        ts.setRowFilter(RowFilter.regexFilter(jTextHSearch.getText().trim()));
+        
+    }//GEN-LAST:event_jTextHSearchKeyPressed
+
+    private void jBtnUpdateHActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnUpdateHActionPerformed
+        // TODO add your handling code here: 
+        int selectedRowIndex = tblHospital.getSelectedRow();
+        if (selectedRowIndex <0){
+            JOptionPane.showMessageDialog(this, "Please select a row to update.");
+            return;
+        }
+        DefaultTableModel model = (DefaultTableModel) tblHospital.getModel();
+        Hospital hs = (Hospital) model.getValueAt(selectedRowIndex, 0);
+
+        if(tblHospital.getSelectedRowCount()==1){
+            model.setValueAt(jTextHName.getText(), selectedRowIndex, 0);
+            model.setValueAt(jTextHCity.getText(), selectedRowIndex, 1);
+            model.setValueAt(jTextHCountry.getText(), selectedRowIndex, 2);
+        }
+                    
+        hs.sethName(jTextHName.getText());
+        hs.sethCity(jTextHCity.getText());
+        hs.sethCountry(jTextHCountry.getText());
+     
+        JOptionPane.showMessageDialog(null, "Selected Hospital's Data are updated.");
+    }//GEN-LAST:event_jBtnUpdateHActionPerformed
+
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton jBtnAddHosptl;
+    private javax.swing.JButton jBtnDltH;
+    private javax.swing.JButton jBtnUpdateH;
+    private javax.swing.JButton jBtnViewH;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JTable jTable1;
+    private javax.swing.JTextField jTextHCity;
+    private javax.swing.JTextField jTextHCountry;
+    private javax.swing.JTextField jTextHName;
+    private javax.swing.JTextField jTextHSearch;
+    private javax.swing.JTable tblHospital;
     // End of variables declaration//GEN-END:variables
+
+    private void populateTable() {
+        DefaultTableModel model = (DefaultTableModel) tblHospital.getModel();
+        model.setRowCount(0);
+        
+        for (Hospital d : historyH.getHistory()){
+            Object[] row =  new Object[3];
+            row[0] = d;
+            row[1] = d.gethCity();
+            row[2] = d.gethCountry();
+            
+            model.addRow(row);
+        }
+    }
 }
