@@ -10,7 +10,11 @@ import model.PatientHistory;
 
 /**
  *
+<<<<<<< HEAD
  * @author Sajja
+=======
+ * @author Rekha
+>>>>>>> bb42f3c4d4219cd98ffd7e1e4a384665c700ce6f
  */
 public class DoctorAvailiability extends javax.swing.JFrame {
 
@@ -161,6 +165,10 @@ public class DoctorAvailiability extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jLabel6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel6MouseClicked
+<<<<<<< HEAD
+=======
+        PatientHistory historyP = null;
+>>>>>>> bb42f3c4d4219cd98ffd7e1e4a384665c700ce6f
  PatientJPanel obj=new PatientJPanel(historyP);
         obj.setVisible(true);
         dispose();    }//GEN-LAST:event_jLabel6MouseClicked

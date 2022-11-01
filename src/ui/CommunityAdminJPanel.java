@@ -4,6 +4,7 @@
  */
 package ui;
 
+<<<<<<< HEAD
 import javax.swing.JOptionPane;
 import javax.swing.RowFilter;
 import javax.swing.table.DefaultTableModel;
@@ -11,6 +12,8 @@ import javax.swing.table.TableRowSorter;
 import model.Hospital;
 import model.HospitalHistory;
 
+=======
+>>>>>>> bb42f3c4d4219cd98ffd7e1e4a384665c700ce6f
 /**
  *
  * @author HP
@@ -20,6 +23,7 @@ public class CommunityAdminJPanel extends javax.swing.JPanel {
     /**
      * Creates new form CommunityAdminJPanel
      */
+<<<<<<< HEAD
     HospitalHistory historyH;
     
     public CommunityAdminJPanel(HospitalHistory historyH) {
@@ -27,6 +31,10 @@ public class CommunityAdminJPanel extends javax.swing.JPanel {
         
         this.historyH = historyH;
         populateTable();
+=======
+    public CommunityAdminJPanel() {
+        initComponents();
+>>>>>>> bb42f3c4d4219cd98ffd7e1e4a384665c700ce6f
     }
 
     /**
@@ -39,6 +47,7 @@ public class CommunityAdminJPanel extends javax.swing.JPanel {
     private void initComponents() {
 
         jScrollPane1 = new javax.swing.JScrollPane();
+<<<<<<< HEAD
         tblHospital = new javax.swing.JTable();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
@@ -56,6 +65,11 @@ public class CommunityAdminJPanel extends javax.swing.JPanel {
         setBackground(new java.awt.Color(255, 153, 153));
 
         tblHospital.setModel(new javax.swing.table.DefaultTableModel(
+=======
+        jTable1 = new javax.swing.JTable();
+
+        jTable1.setModel(new javax.swing.table.DefaultTableModel(
+>>>>>>> bb42f3c4d4219cd98ffd7e1e4a384665c700ce6f
             new Object [][] {
                 {null, null, null},
                 {null, null, null},
@@ -63,6 +77,7 @@ public class CommunityAdminJPanel extends javax.swing.JPanel {
                 {null, null, null}
             },
             new String [] {
+<<<<<<< HEAD
                 "Hospital Name", "City Name", "Country Name"
             }
         ));
@@ -121,12 +136,19 @@ public class CommunityAdminJPanel extends javax.swing.JPanel {
                 jBtnAddHosptlActionPerformed(evt);
             }
         });
+=======
+                "Country Name", "City Name", "Hospital Name"
+            }
+        ));
+        jScrollPane1.setViewportView(jTable1);
+>>>>>>> bb42f3c4d4219cd98ffd7e1e4a384665c700ce6f
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
+<<<<<<< HEAD
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGap(206, 206, 206)
@@ -159,10 +181,16 @@ public class CommunityAdminJPanel extends javax.swing.JPanel {
                                 .addComponent(jBtnAddHosptl))
                             .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 500, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addContainerGap(157, Short.MAX_VALUE))
+=======
+                .addGap(101, 101, 101)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 500, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(106, Short.MAX_VALUE))
+>>>>>>> bb42f3c4d4219cd98ffd7e1e4a384665c700ce6f
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
+<<<<<<< HEAD
                 .addGap(28, 28, 28)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jBtnViewH)
@@ -304,4 +332,17 @@ public class CommunityAdminJPanel extends javax.swing.JPanel {
             model.addRow(row);
         }
     }
+=======
+                .addGap(91, 91, 91)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 111, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(358, Short.MAX_VALUE))
+        );
+    }// </editor-fold>//GEN-END:initComponents
+
+
+    // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JTable jTable1;
+    // End of variables declaration//GEN-END:variables
+>>>>>>> bb42f3c4d4219cd98ffd7e1e4a384665c700ce6f
 }

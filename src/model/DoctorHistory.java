@@ -8,7 +8,11 @@ import java.util.ArrayList;
 
 /**
  *
+<<<<<<< HEAD
  * @author Vijaya B.
+=======
+ * @author HP
+>>>>>>> bb42f3c4d4219cd98ffd7e1e4a384665c700ce6f
  */
 public class DoctorHistory {
     private ArrayList<Doctor> history;
@@ -26,14 +30,25 @@ public class DoctorHistory {
         this.history = history;
     }
     
+<<<<<<< HEAD
      public Doctor addNewDoctor(){
+=======
+     public Doctor addNewEmployee(){
+>>>>>>> bb42f3c4d4219cd98ffd7e1e4a384665c700ce6f
         Doctor newDoctor = new Doctor();
         history.add(newDoctor);
         return newDoctor;
     }
     
+<<<<<<< HEAD
     public void deleteDoctor(Doctor d){
         history.remove(d);
     }   
+=======
+    public void deleteEmployee(Doctor d){
+        history.remove(d);
+    }
+    
+>>>>>>> bb42f3c4d4219cd98ffd7e1e4a384665c700ce6f
     
 }

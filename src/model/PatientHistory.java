@@ -33,10 +33,13 @@ public class PatientHistory {
         historyP.add(newPatient);
         return newPatient;
      }
+<<<<<<< HEAD
     
     public void deletePatient(Patient p){
         historyP.remove(p);
     }  
 
     
+=======
+>>>>>>> bb42f3c4d4219cd98ffd7e1e4a384665c700ce6f
 }

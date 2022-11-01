@@ -38,11 +38,14 @@
       <Layout class="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout"/>
       <SubComponents>
         <Container class="javax.swing.JPanel" name="jBtnPanel">
+<<<<<<< HEAD
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="99" green="99" red="ff" type="rgb"/>
             </Property>
           </Properties>
+=======
+>>>>>>> bb42f3c4d4219cd98ffd7e1e4a384665c700ce6f
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout$JSplitPaneConstraintsDescription">
               <JSplitPaneConstraints position="left"/>
@@ -52,6 +55,7 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
+<<<<<<< HEAD
                   <Group type="102" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
@@ -66,6 +70,25 @@
                               <Component id="jBtnHospitalAdmn" alignment="0" max="32767" attributes="0"/>
                               <Component id="jBtnAdminPatient" alignment="0" pref="263" max="32767" attributes="0"/>
                           </Group>
+=======
+                  <Component id="SAJPanel" alignment="0" max="32767" attributes="0"/>
+                  <Component id="DoctorJPanel" alignment="0" max="32767" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="btnPatient" alignment="1" pref="133" max="32767" attributes="0"/>
+                          <Component id="btnPatientDetails" alignment="0" max="32767" attributes="0"/>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="CAJPanel" max="32767" attributes="0"/>
+                          <Component id="SAJPanel" alignment="0" max="32767" attributes="0"/>
+                          <Component id="DoctorJPanel" alignment="0" max="32767" attributes="0"/>
+                          <Component id="PatientPanel" alignment="0" max="32767" attributes="0"/>
+                          <Component id="SAJPanel" alignment="0" max="32767" attributes="0"/>
+                          <Component id="DoctorJPanel" alignment="0" max="32767" attributes="0"/>
+                          <Component id="PatientPanel" alignment="0" pref="133" max="32767" attributes="0"/>
+>>>>>>> bb42f3c4d4219cd98ffd7e1e4a384665c700ce6f
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
@@ -74,6 +97,7 @@
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
+<<<<<<< HEAD
                       <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
                       <Component id="jLabel1" min="-2" pref="103" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
@@ -143,21 +167,83 @@
               </Events>
             </Component>
             <Component class="javax.swing.JButton" name="jBtnCommAdmn">
+=======
+                      <EmptySpace min="-2" pref="160" max="-2" attributes="0"/>
+                      <Component id="btnPatient" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="btnPatientDetails" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                      <Component id="DoctorJPanel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="SAJPanel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="253" max="32767" attributes="0"/>
+                      <Component id="PatientPanel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="DoctorJPanel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                      <Component id="SAJPanel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                      <Component id="CAJPanel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="235" max="32767" attributes="0"/>
+                      <EmptySpace pref="283" max="32767" attributes="0"/>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="btnPatient">
+            <Component class="javax.swing.JButton" name="PatientPanel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Are you a patient?"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnPatientActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="PatientPanelActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="DoctorJPanel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Are you a doctor?"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="SAJPanel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="System Admin"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SAJPanelActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnPatientDetails">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="See Patient Details"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnPatientDetailsActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="CAJPanel">
+>>>>>>> bb42f3c4d4219cd98ffd7e1e4a384665c700ce6f
               <Properties>
                 <Property name="text" type="java.lang.String" value="Community Admin"/>
               </Properties>
               <Events>
+<<<<<<< HEAD
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBtnCommAdmnActionPerformed"/>
+=======
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SAJPanelActionPerformed"/>
+>>>>>>> bb42f3c4d4219cd98ffd7e1e4a384665c700ce6f
               </Events>
             </Component>
           </SubComponents>
         </Container>
         <Container class="javax.swing.JPanel" name="jWorkArea">
+<<<<<<< HEAD
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="99" green="99" red="ff" type="rgb"/>
             </Property>
           </Properties>
+=======
+>>>>>>> bb42f3c4d4219cd98ffd7e1e4a384665c700ce6f
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout$JSplitPaneConstraintsDescription">
               <JSplitPaneConstraints position="right"/>
@@ -167,7 +253,11 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
+<<<<<<< HEAD
                   <EmptySpace min="0" pref="921" max="32767" attributes="0"/>
+=======
+                  <EmptySpace min="0" pref="714" max="32767" attributes="0"/>
+>>>>>>> bb42f3c4d4219cd98ffd7e1e4a384665c700ce6f
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">

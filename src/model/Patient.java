@@ -10,6 +10,7 @@ package model;
  */
 public class Patient {
     private String PatientName;
+<<<<<<< HEAD
     private String Cnic;
     private String PIllness;
     private String ChooseDoctor;
@@ -61,6 +62,10 @@ public class Patient {
     public void setDiagnosis(String Diagnosis) {
         this.Diagnosis = Diagnosis;
     }
+=======
+
+    
+>>>>>>> bb42f3c4d4219cd98ffd7e1e4a384665c700ce6f
 
     public String getPatientName() {
         return PatientName;
@@ -101,6 +106,7 @@ public class Patient {
     public void setChooseDoctor(String ChooseDoctor) {
         this.ChooseDoctor = ChooseDoctor;
     }
+<<<<<<< HEAD
     
     @Override
     public String toString(){
@@ -132,5 +138,13 @@ public class Patient {
 //        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
 //    }
 
+=======
+    private String FName;
+
+   
+    private String Cnic;
+    private String PIllness;
+    private String ChooseDoctor;
+>>>>>>> bb42f3c4d4219cd98ffd7e1e4a384665c700ce6f
 }
 

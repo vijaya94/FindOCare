@@ -10,15 +10,23 @@ import model.PatientHistory;
 
 /**
  *
+<<<<<<< HEAD
  * @author Sajja
+=======
+ * @author Rekha
+>>>>>>> bb42f3c4d4219cd98ffd7e1e4a384665c700ce6f
  */
 public class LoginPage extends javax.swing.JFrame {
 
     /**
      * Creates new form LoginPage
      */
+<<<<<<< HEAD
     PatientHistory historyP;
 
+=======
+	 PatientHistory historyP;
+>>>>>>> bb42f3c4d4219cd98ffd7e1e4a384665c700ce6f
     public LoginPage() {
         initComponents();
     }

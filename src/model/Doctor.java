@@ -6,6 +6,7 @@ package model;
 
 /**
  *
+<<<<<<< HEAD
  * @author Vijaya B.
  */
 public class Doctor {
@@ -68,5 +69,47 @@ public class Doctor {
     public String toString(){
         return dname;
     }
+=======
+ * @author HP
+ */
+public class Doctor {
+    private String name;
+    private int contact;
+    private String degree;
+    private String department;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getContact() {
+        return contact;
+    }
+
+    public void setContact(int contact) {
+        this.contact = contact;
+    }
+
+    public String getDegree() {
+        return degree;
+    }
+
+    public void setDegree(String degree) {
+        this.degree = degree;
+    }
+
+    public String getDepartment() {
+        return department;
+    }
+
+    public void setDepartment(String department) {
+        this.department = department;
+    }
+    
+>>>>>>> bb42f3c4d4219cd98ffd7e1e4a384665c700ce6f
     
 }
