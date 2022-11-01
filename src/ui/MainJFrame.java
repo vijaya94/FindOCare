@@ -5,11 +5,17 @@
 package ui;
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 import model.DoctorHistory;
 import model.HospitalHistory;
 import model.PatientHistory;
 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 /**
  *
@@ -21,9 +27,12 @@ public class MainJFrame extends javax.swing.JFrame {
      * Creates new form MainJFrame
      */
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     public MainJFrame() {
         initComponents();
 =======
+=======
+>>>>>>> Stashed changes
     DoctorHistory history;
     PatientHistory historyP;
     HospitalHistory historyH;
@@ -33,6 +42,9 @@ public class MainJFrame extends javax.swing.JFrame {
         history = new DoctorHistory();
         historyP = new PatientHistory();
         historyH = new HospitalHistory();
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     }
 
@@ -49,23 +61,35 @@ public class MainJFrame extends javax.swing.JFrame {
         jBtnPanel = new javax.swing.JPanel();
         PatientPanel = new javax.swing.JButton();
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         DoctorJPanel = new javax.swing.JButton();
         SAJPanel = new javax.swing.JButton();
         CAJPanel = new javax.swing.JButton();
 =======
+=======
+>>>>>>> Stashed changes
         jBtnDoctor = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
         jBtnHospitalAdmn = new javax.swing.JButton();
         jBtnAdminPatient = new javax.swing.JButton();
         jBtnCommAdmn = new javax.swing.JButton();
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         jWorkArea = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         PatientPanel.setText("Are you a patient?");
+=======
+        jBtnPanel.setBackground(new java.awt.Color(255, 153, 153));
+
+        PatientPanel.setText("Patient Register");
+>>>>>>> Stashed changes
 =======
         jBtnPanel.setBackground(new java.awt.Color(255, 153, 153));
 
@@ -78,12 +102,15 @@ public class MainJFrame extends javax.swing.JFrame {
         });
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         DoctorJPanel.setText("Are you a doctor?");
 
         SAJPanel.setText("System Admin");
 
         CAJPanel.setText("Community Admin");
 =======
+=======
+>>>>>>> Stashed changes
         jBtnDoctor.setText("Are you a doctor?");
         jBtnDoctor.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -121,12 +148,16 @@ public class MainJFrame extends javax.swing.JFrame {
                 jBtnCommAdmnActionPerformed(evt);
             }
         });
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
         javax.swing.GroupLayout jBtnPanelLayout = new javax.swing.GroupLayout(jBtnPanel);
         jBtnPanel.setLayout(jBtnPanelLayout);
         jBtnPanelLayout.setHorizontalGroup(
             jBtnPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jBtnPanelLayout.createSequentialGroup()
                 .addContainerGap()
@@ -136,6 +167,8 @@ public class MainJFrame extends javax.swing.JFrame {
                     .addComponent(DoctorJPanel, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(PatientPanel, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
 =======
+=======
+>>>>>>> Stashed changes
             .addGroup(jBtnPanelLayout.createSequentialGroup()
                 .addGroup(jBtnPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jBtnPanelLayout.createSequentialGroup()
@@ -148,12 +181,16 @@ public class MainJFrame extends javax.swing.JFrame {
                     .addGroup(jBtnPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                         .addComponent(jBtnHospitalAdmn, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jBtnAdminPatient, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 263, Short.MAX_VALUE)))
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                 .addContainerGap())
         );
         jBtnPanelLayout.setVerticalGroup(
             jBtnPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jBtnPanelLayout.createSequentialGroup()
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                 .addGap(160, 160, 160)
                 .addComponent(PatientPanel)
@@ -165,6 +202,8 @@ public class MainJFrame extends javax.swing.JFrame {
                 .addComponent(CAJPanel)
                 .addContainerGap(235, Short.MAX_VALUE))
 =======
+=======
+>>>>>>> Stashed changes
                 .addGap(39, 39, 39)
                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 103, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(31, 31, 31)
@@ -180,12 +219,20 @@ public class MainJFrame extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jBtnAdminPatient)
                 .addContainerGap(171, Short.MAX_VALUE))
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         );
 
         SplitPanel.setLeftComponent(jBtnPanel);
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+        jWorkArea.setBackground(new java.awt.Color(255, 153, 153));
+
+>>>>>>> Stashed changes
 =======
         jWorkArea.setBackground(new java.awt.Color(255, 153, 153));
 
@@ -195,7 +242,11 @@ public class MainJFrame extends javax.swing.JFrame {
         jWorkAreaLayout.setHorizontalGroup(
             jWorkAreaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             .addGap(0, 714, Short.MAX_VALUE)
+=======
+            .addGap(0, 921, Short.MAX_VALUE)
+>>>>>>> Stashed changes
 =======
             .addGap(0, 921, Short.MAX_VALUE)
 >>>>>>> Stashed changes
@@ -224,11 +275,14 @@ public class MainJFrame extends javax.swing.JFrame {
     private void PatientPanelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PatientPanelActionPerformed
         // TODO add your handling code here:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         PatientJPanel patient = new PatientJPanel();
         SplitPanel.setRightComponent(patient);
     }//GEN-LAST:event_PatientPanelActionPerformed
 
 =======
+=======
+>>>>>>> Stashed changes
         PatientJPanel patient = new PatientJPanel(historyP);
         SplitPanel.setRightComponent(patient);
     }//GEN-LAST:event_PatientPanelActionPerformed
@@ -265,6 +319,9 @@ public class MainJFrame extends javax.swing.JFrame {
         
     }//GEN-LAST:event_jBtnDoctorActionPerformed
 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     /**
      * @param args the command line arguments
@@ -303,6 +360,7 @@ public class MainJFrame extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     private javax.swing.JButton CAJPanel;
     private javax.swing.JButton DoctorJPanel;
     private javax.swing.JButton PatientPanel;
@@ -310,6 +368,8 @@ public class MainJFrame extends javax.swing.JFrame {
     private javax.swing.JSplitPane SplitPanel;
     private javax.swing.JPanel jBtnPanel;
 =======
+=======
+>>>>>>> Stashed changes
     private javax.swing.JButton PatientPanel;
     private javax.swing.JSplitPane SplitPanel;
     private javax.swing.JButton jBtnAdminPatient;
@@ -319,6 +379,9 @@ public class MainJFrame extends javax.swing.JFrame {
     private javax.swing.JPanel jBtnPanel;
     private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     private javax.swing.JPanel jWorkArea;
     // End of variables declaration//GEN-END:variables

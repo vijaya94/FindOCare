@@ -2,12 +2,18 @@
 
 <Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
   <Properties>
     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
       <Color blue="99" green="99" red="ff" type="rgb"/>
     </Property>
   </Properties>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   <AuxValues>
     <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
@@ -24,6 +30,7 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
           <Group type="102" alignment="0" attributes="0">
               <Group type="103" groupAlignment="0" attributes="0">
@@ -46,6 +53,8 @@
               <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="71" max="-2" attributes="0"/>
 =======
+=======
+>>>>>>> Stashed changes
           <Group type="102" alignment="1" attributes="0">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
@@ -67,6 +76,7 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="103" groupAlignment="1" max="-2" attributes="0">
                       <Component id="btnSubmit" alignment="1" min="-2" max="-2" attributes="0"/>
+<<<<<<< Updated upstream
                       <Group type="102" alignment="1" attributes="0">
                           <Component id="ill" min="-2" max="-2" attributes="0"/>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
@@ -80,6 +90,23 @@
                           <Component id="doctor" min="-2" max="-2" attributes="0"/>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Component id="CD" pref="181" max="32767" attributes="0"/>
+=======
+                      <Component id="CNIC" alignment="0" pref="301" max="32767" attributes="0"/>
+                      <Component id="fn" alignment="0" max="32767" attributes="0"/>
+                      <Component id="pn" alignment="0" max="32767" attributes="0"/>
+                      <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                              <Component id="doctor" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="CD" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="ill" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="PI" min="-2" pref="128" max="-2" attributes="0"/>
+                          </Group>
+>>>>>>> Stashed changes
                       </Group>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
@@ -93,6 +120,9 @@
               <EmptySpace max="32767" attributes="0"/>
               <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="239" max="-2" attributes="0"/>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
           </Group>
       </Group>
@@ -100,6 +130,7 @@
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
               <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
               <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
@@ -111,6 +142,8 @@
               <Component id="jButton2" min="-2" max="-2" attributes="0"/>
               <EmptySpace pref="187" max="32767" attributes="0"/>
 =======
+=======
+>>>>>>> Stashed changes
               <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
               <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
@@ -147,12 +180,16 @@
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
               <EmptySpace pref="191" max="32767" attributes="0"/>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
           </Group>
       </Group>
     </DimensionLayout>
   </Layout>
   <SubComponents>
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
@@ -189,6 +226,8 @@
 =======
     <Component class="javax.swing.JTextField" name="PI">
     </Component>
+=======
+>>>>>>> Stashed changes
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
@@ -228,8 +267,11 @@
         <Property name="text" type="java.lang.String" value="Patient Name:"/>
       </Properties>
     </Component>
+<<<<<<< Updated upstream
     <Component class="javax.swing.JTextField" name="CD">
     </Component>
+=======
+>>>>>>> Stashed changes
     <Component class="javax.swing.JTextField" name="pn">
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel4">
@@ -275,6 +317,13 @@
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
       </AuxValues>
+    </Component>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+    <Component class="javax.swing.JTextField" name="PI">
+    </Component>
+    <Component class="javax.swing.JTextField" name="CD">
     </Component>
 >>>>>>> Stashed changes
   </SubComponents>

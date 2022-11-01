@@ -7,16 +7,22 @@ package ui;
 
 import javax.swing.JOptionPane;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 /**
  *
  * @author Muhammad Taha Azam
 =======
+=======
+>>>>>>> Stashed changes
 import model.PatientHistory;
 
 /**
  *
  * @author Sajja
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
  */
 public class LoginPage extends javax.swing.JFrame {
@@ -25,6 +31,11 @@ public class LoginPage extends javax.swing.JFrame {
      * Creates new form LoginPage
      */
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+    PatientHistory historyP;
+
+>>>>>>> Stashed changes
 =======
     PatientHistory historyP;
 
@@ -119,7 +130,11 @@ public class LoginPage extends javax.swing.JFrame {
         
         if(username.equals("admin") && password.equals("admin")){
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         PatientJPanel obj=new PatientJPanel();
+=======
+        PatientJPanel obj=new PatientJPanel(historyP);
+>>>>>>> Stashed changes
 =======
         PatientJPanel obj=new PatientJPanel(historyP);
 >>>>>>> Stashed changes

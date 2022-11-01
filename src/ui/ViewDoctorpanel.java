@@ -273,17 +273,34 @@ public class ViewDoctorpanel extends javax.swing.JPanel {
 
     private void btnSubmitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSubmitActionPerformed
         String diagnosis=jTextPdiagnosis.getText();
+<<<<<<< Updated upstream
         
 
         Patient p = historyP.addNewPatient();
         String dadd = null;
 
         p.setDiagnosis(dadd);
+=======
+        int selectedRowIndex = tblPatient.getSelectedRow();
+        DefaultTableModel model = (DefaultTableModel) tblPatient.getModel();
+        Patient p = (Patient) model.getValueAt(selectedRowIndex, 0);
+        
+        p.setDiagnosis(jTextPdiagnosis.getText());
+        //String dadd = null;
+        //Patient p = historyP.addNewPatient();
+        
+
+        //p.setDiagnosis(dadd);
+>>>>>>> Stashed changes
        
 
         JOptionPane.showMessageDialog(this, "\n\n Patient Diagnosis Added");
 
         jTextPdiagnosis.setText("");
+<<<<<<< Updated upstream
+=======
+        populateTablePatient();
+>>>>>>> Stashed changes
         
 
         //JOptionPane.showMessageDialog(rootPane,"Patient Name: "+ pname+ "\nFather Name: "+fname+"\nCnic: "+Cnic+"\n\n Data has been Submitted");
@@ -322,7 +339,11 @@ public class ViewDoctorpanel extends javax.swing.JPanel {
             rowp[1]=p.getFName();
             rowp[2]=p.getCnic();
             rowp[3]=p.getPIllness();
+<<<<<<< Updated upstream
             rowp[4]=p.getChooseDoctor();
+=======
+            rowp[4]=p.getDiagnosis();
+>>>>>>> Stashed changes
             
             model.addRow(rowp);
         //throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody

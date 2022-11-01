@@ -39,12 +39,18 @@
       <SubComponents>
         <Container class="javax.swing.JPanel" name="jBtnPanel">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="99" green="99" red="ff" type="rgb"/>
             </Property>
           </Properties>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout$JSplitPaneConstraintsDescription">
@@ -56,6 +62,7 @@
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                   <Group type="102" alignment="1" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="1" attributes="0">
@@ -64,6 +71,8 @@
                           <Component id="DoctorJPanel" alignment="0" max="32767" attributes="0"/>
                           <Component id="PatientPanel" alignment="0" max="32767" attributes="0"/>
 =======
+=======
+>>>>>>> Stashed changes
                   <Group type="102" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
@@ -78,6 +87,9 @@
                               <Component id="jBtnHospitalAdmn" alignment="0" max="32767" attributes="0"/>
                               <Component id="jBtnAdminPatient" alignment="0" pref="263" max="32767" attributes="0"/>
                           </Group>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
@@ -87,6 +99,7 @@
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                       <EmptySpace min="-2" pref="160" max="-2" attributes="0"/>
                       <Component id="PatientPanel" min="-2" max="-2" attributes="0"/>
@@ -98,6 +111,8 @@
                       <Component id="CAJPanel" min="-2" max="-2" attributes="0"/>
                       <EmptySpace pref="235" max="32767" attributes="0"/>
 =======
+=======
+>>>>>>> Stashed changes
                       <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
                       <Component id="jLabel1" min="-2" pref="103" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
@@ -113,6 +128,9 @@
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Component id="jBtnAdminPatient" min="-2" max="-2" attributes="0"/>
                       <EmptySpace pref="171" max="32767" attributes="0"/>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                   </Group>
               </Group>
@@ -122,7 +140,11 @@
             <Component class="javax.swing.JButton" name="PatientPanel">
               <Properties>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 <Property name="text" type="java.lang.String" value="Are you a patient?"/>
+=======
+                <Property name="text" type="java.lang.String" value="Patient Register"/>
+>>>>>>> Stashed changes
 =======
                 <Property name="text" type="java.lang.String" value="Patient Register"/>
 >>>>>>> Stashed changes
@@ -131,6 +153,7 @@
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="PatientPanelActionPerformed"/>
               </Events>
             </Component>
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
             <Component class="javax.swing.JButton" name="DoctorJPanel">
               <Properties>
@@ -147,6 +170,8 @@
                 <Property name="text" type="java.lang.String" value="Community Admin"/>
               </Properties>
 =======
+=======
+>>>>>>> Stashed changes
             <Component class="javax.swing.JButton" name="jBtnDoctor">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Are you a doctor?"/>
@@ -194,18 +219,27 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBtnCommAdmnActionPerformed"/>
               </Events>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
             </Component>
           </SubComponents>
         </Container>
         <Container class="javax.swing.JPanel" name="jWorkArea">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="99" green="99" red="ff" type="rgb"/>
             </Property>
           </Properties>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout$JSplitPaneConstraintsDescription">
@@ -217,7 +251,11 @@
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                   <EmptySpace min="0" pref="714" max="32767" attributes="0"/>
+=======
+                  <EmptySpace min="0" pref="921" max="32767" attributes="0"/>
+>>>>>>> Stashed changes
 =======
                   <EmptySpace min="0" pref="921" max="32767" attributes="0"/>
 >>>>>>> Stashed changes
