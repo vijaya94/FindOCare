@@ -20,7 +20,7 @@ public class PatientJPanel extends javax.swing.JPanel {
     PatientHistory historyP;
     public PatientJPanel(PatientHistory historyP) {
         initComponents();
-        this.historyP=historyP;
+        this.historyP = historyP;
     }
 
     //PatientJPanel(PatientHistory historyP) {
@@ -169,12 +169,15 @@ public class PatientJPanel extends javax.swing.JPanel {
         String cd=CD.getText();
         
         Patient p = historyP.addNewPatient();
+        
         p.setPatientName(pname);
         p.setFName(fname);
         p.setCnic(Cnic);
         p.setPIllness(pi);
         p.setChooseDoctor(cd);
+        
         JOptionPane.showMessageDialog(this, "\n\n Patient details saved");
+        
         CNIC.setText("");
         pn.setText("");
         fn.setText("");

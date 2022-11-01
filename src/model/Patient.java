@@ -10,8 +10,10 @@ package model;
  */
 public class Patient {
     private String PatientName;
-
-    
+    private String Cnic;
+    private String PIllness;
+    private String ChooseDoctor;
+    private String FName;
 
     public String getPatientName() {
         return PatientName;
@@ -52,11 +54,11 @@ public class Patient {
     public void setChooseDoctor(String ChooseDoctor) {
         this.ChooseDoctor = ChooseDoctor;
     }
-    private String FName;
+    
+    @Override
+    public String toString(){
+        return PatientName;
+    }
 
-   
-    private String Cnic;
-    private String PIllness;
-    private String ChooseDoctor;
 }
 

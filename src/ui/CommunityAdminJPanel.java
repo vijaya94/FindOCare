@@ -8,7 +8,6 @@ import javax.swing.JOptionPane;
 import javax.swing.RowFilter;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableRowSorter;
-import model.Doctor;
 import model.Hospital;
 import model.HospitalHistory;
 

@@ -3,10 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/HP/Documents/NetBeansProjects/FindOCare/src/ui/PatientForm.java</file>
-            <file>file:/C:/Users/HP/Documents/NetBeansProjects/FindOCare/src/ui/ViewPatient.java</file>
-            <file>file:/C:/Users/HP/Documents/NetBeansProjects/FindOCare/src/ui/PatientJPanel.java</file>
-            <file>file:/C:/Users/HP/Documents/NetBeansProjects/FindOCare/src/ui/SystemAdmin.java</file>
+            <file>file:/C:/Users/HP/Documents/NetBeansProjects/FindOCare/src/model/Doctor.java</file>
+            <file>file:/C:/Users/HP/Documents/NetBeansProjects/FindOCare/src/model/PatientHistory.java</file>
+            <file>file:/C:/Users/HP/Documents/NetBeansProjects/FindOCare/src/model/Patient.java</file>
+            <file>file:/C:/Users/HP/Documents/NetBeansProjects/FindOCare/src/ui/PatientAdminAcess.java</file>
         </group>
     </open-files>
 </project-private>
