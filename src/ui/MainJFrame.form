@@ -38,6 +38,14 @@
       <Layout class="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout"/>
       <SubComponents>
         <Container class="javax.swing.JPanel" name="jBtnPanel">
+<<<<<<< Updated upstream
+=======
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="99" green="99" red="ff" type="rgb"/>
+            </Property>
+          </Properties>
+>>>>>>> Stashed changes
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout$JSplitPaneConstraintsDescription">
               <JSplitPaneConstraints position="left"/>
@@ -47,6 +55,7 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
+<<<<<<< Updated upstream
                   <Group type="102" alignment="1" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="1" attributes="0">
@@ -54,6 +63,22 @@
                           <Component id="SAJPanel" alignment="0" max="32767" attributes="0"/>
                           <Component id="DoctorJPanel" alignment="0" max="32767" attributes="0"/>
                           <Component id="PatientPanel" alignment="0" max="32767" attributes="0"/>
+=======
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                              <Component id="jLabel1" min="-2" pref="102" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jButton1" alignment="1" pref="263" max="32767" attributes="0"/>
+                          <Component id="PatientPanel" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jBtnDoctor" max="32767" attributes="0"/>
+                          <Component id="jBtnCommAdmn" alignment="1" max="32767" attributes="0"/>
+                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="jBtnHospitalAdmn" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jBtnAdminPatient" alignment="0" pref="263" max="32767" attributes="0"/>
+                          </Group>
+>>>>>>> Stashed changes
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
@@ -62,6 +87,7 @@
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
+<<<<<<< Updated upstream
                       <EmptySpace min="-2" pref="160" max="-2" attributes="0"/>
                       <Component id="PatientPanel" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
@@ -71,6 +97,23 @@
                       <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
                       <Component id="CAJPanel" min="-2" max="-2" attributes="0"/>
                       <EmptySpace pref="235" max="32767" attributes="0"/>
+=======
+                      <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" pref="103" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                      <Component id="PatientPanel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jBtnDoctor" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jBtnCommAdmn" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jBtnHospitalAdmn" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jBtnAdminPatient" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="171" max="32767" attributes="0"/>
+>>>>>>> Stashed changes
                   </Group>
               </Group>
             </DimensionLayout>
@@ -78,12 +121,17 @@
           <SubComponents>
             <Component class="javax.swing.JButton" name="PatientPanel">
               <Properties>
+<<<<<<< Updated upstream
                 <Property name="text" type="java.lang.String" value="Are you a patient?"/>
+=======
+                <Property name="text" type="java.lang.String" value="Patient Register"/>
+>>>>>>> Stashed changes
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="PatientPanelActionPerformed"/>
               </Events>
             </Component>
+<<<<<<< Updated upstream
             <Component class="javax.swing.JButton" name="DoctorJPanel">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Are you a doctor?"/>
@@ -98,10 +146,67 @@
               <Properties>
                 <Property name="text" type="java.lang.String" value="Community Admin"/>
               </Properties>
+=======
+            <Component class="javax.swing.JButton" name="jBtnDoctor">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Are you a doctor?"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBtnDoctorActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel1">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/ui/Optimized-FindOCare.JPG"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="jLabel1"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Patient&apos;s Booking Details"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="jBtnHospitalAdmn">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Hospital admin - Doctor Details"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBtnHospitalAdmnActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="jBtnAdminPatient">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Hospital Admin - Patient Details"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBtnAdminPatientActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="jBtnCommAdmn">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Community Admin"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBtnCommAdmnActionPerformed"/>
+              </Events>
+>>>>>>> Stashed changes
             </Component>
           </SubComponents>
         </Container>
         <Container class="javax.swing.JPanel" name="jWorkArea">
+<<<<<<< Updated upstream
+=======
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="99" green="99" red="ff" type="rgb"/>
+            </Property>
+          </Properties>
+>>>>>>> Stashed changes
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout$JSplitPaneConstraintsDescription">
               <JSplitPaneConstraints position="right"/>
@@ -111,7 +216,11 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
+<<<<<<< Updated upstream
                   <EmptySpace min="0" pref="714" max="32767" attributes="0"/>
+=======
+                  <EmptySpace min="0" pref="921" max="32767" attributes="0"/>
+>>>>>>> Stashed changes
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">

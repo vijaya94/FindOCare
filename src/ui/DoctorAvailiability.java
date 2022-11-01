@@ -6,16 +6,29 @@
 package ui;
 
 import javax.swing.JOptionPane;
+<<<<<<< Updated upstream
 
 /**
  *
  * @author Muhammad Taha Azam
+=======
+import model.PatientHistory;
+
+/**
+ *
+ * @author Sajja
+>>>>>>> Stashed changes
  */
 public class DoctorAvailiability extends javax.swing.JFrame {
 
     /**
      * Creates new form Module2
      */
+<<<<<<< Updated upstream
+=======
+    PatientHistory historyP;
+    
+>>>>>>> Stashed changes
     public DoctorAvailiability() {
         initComponents();
     }
@@ -158,7 +171,11 @@ public class DoctorAvailiability extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jLabel6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel6MouseClicked
+<<<<<<< Updated upstream
  PatientJPanel obj=new PatientJPanel();
+=======
+ PatientJPanel obj=new PatientJPanel(historyP);
+>>>>>>> Stashed changes
         obj.setVisible(true);
         dispose();    }//GEN-LAST:event_jLabel6MouseClicked
 
