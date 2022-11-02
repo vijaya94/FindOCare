@@ -38,6 +38,7 @@ public class PatientJPanel extends javax.swing.JPanel {
     private void initComponents() {
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         PI = new javax.swing.JTextField();
         jLabel1 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
@@ -47,16 +48,22 @@ public class PatientJPanel extends javax.swing.JPanel {
         CD = new javax.swing.JTextField();
         pn = new javax.swing.JTextField();
 =======
+=======
+>>>>>>> Stashed changes
         jLabel9 = new javax.swing.JLabel();
         pn = new javax.swing.JTextField();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         jLabel4 = new javax.swing.JLabel();
         fn = new javax.swing.JTextField();
         btnSubmit = new javax.swing.JButton();
         jLabel5 = new javax.swing.JLabel();
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
         CNIC = new javax.swing.JTextField();
         jLabel9 = new javax.swing.JLabel();
@@ -75,6 +82,8 @@ public class PatientJPanel extends javax.swing.JPanel {
         doctor.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Dr. David", "Dr. Thomson", "Dr. Vivek", "Dr. Hassan", "Dr. Tina" }));
 
 =======
+=======
+>>>>>>> Stashed changes
         jLabel11 = new javax.swing.JLabel();
         ADDR = new javax.swing.JTextField();
         Cnic = new javax.swing.JTextField();
@@ -94,13 +103,20 @@ public class PatientJPanel extends javax.swing.JPanel {
 
         jLabel2.setText("Enter you details");
 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         jLabel3.setText("Patient Name:");
 
         jLabel4.setText("Father name:");
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         btnSubmit.setText("Sumbit");
+=======
+        btnSubmit.setText("Submit");
+>>>>>>> Stashed changes
 =======
         btnSubmit.setText("Submit");
 >>>>>>> Stashed changes
@@ -113,10 +129,13 @@ public class PatientJPanel extends javax.swing.JPanel {
         jLabel5.setText("CNIC Number:");
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         jLabel6.setText("Patient Illness:");
 
         ill.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Fever", "FLU", "Bloodpressure", "Cancer" }));
 =======
+=======
+>>>>>>> Stashed changes
         jLabel11.setText("Address:");
 
         ADDR.addActionListener(new java.awt.event.ActionListener() {
@@ -138,6 +157,9 @@ public class PatientJPanel extends javax.swing.JPanel {
                 PHNActionPerformed(evt);
             }
         });
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
@@ -145,6 +167,7 @@ public class PatientJPanel extends javax.swing.JPanel {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
@@ -183,6 +206,8 @@ public class PatientJPanel extends javax.swing.JPanel {
                 .addComponent(jLabel9)
                 .addGap(239, 239, 239))
 =======
+=======
+>>>>>>> Stashed changes
                 .addContainerGap(506, Short.MAX_VALUE)
                 .addComponent(jLabel9)
                 .addGap(239, 239, 239))
@@ -221,11 +246,15 @@ public class PatientJPanel extends javax.swing.JPanel {
                             .addGap(292, 292, 292)
                             .addComponent(btnSubmit)))
                     .addContainerGap(123, Short.MAX_VALUE)))
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                 .addGap(40, 40, 40)
                 .addComponent(jLabel1)
@@ -259,6 +288,8 @@ public class PatientJPanel extends javax.swing.JPanel {
                 .addComponent(jLabel9)
                 .addContainerGap(191, Short.MAX_VALUE))
 =======
+=======
+>>>>>>> Stashed changes
                 .addGap(174, 174, 174)
                 .addComponent(jLabel2)
                 .addGap(96, 96, 96)
@@ -291,11 +322,15 @@ public class PatientJPanel extends javax.swing.JPanel {
                     .addGap(146, 146, 146)
                     .addComponent(btnSubmit)
                     .addContainerGap(132, Short.MAX_VALUE)))
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         );
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnSubmitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSubmitActionPerformed
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
        String Cnic=CNIC.getText();
         String pname=pn.getText();
@@ -335,6 +370,8 @@ public class PatientJPanel extends javax.swing.JPanel {
     private javax.swing.JComboBox<String> ill;
     private javax.swing.JLabel jLabel1;
 =======
+=======
+>>>>>>> Stashed changes
         if(pn.getText().equals("")){
             JOptionPane.showMessageDialog(this, "Patient Name cannot be blank.");
             pn.requestFocus();
@@ -411,14 +448,20 @@ public class PatientJPanel extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     private javax.swing.JLabel jLabel9;

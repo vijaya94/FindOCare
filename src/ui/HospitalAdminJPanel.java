@@ -58,6 +58,10 @@ public class HospitalAdminJPanel extends javax.swing.JPanel {
         jLabel12 = new javax.swing.JLabel();
         jLabel13 = new javax.swing.JLabel();
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+        jLabel1 = new javax.swing.JLabel();
+>>>>>>> Stashed changes
 =======
         jLabel1 = new javax.swing.JLabel();
 >>>>>>> Stashed changes
@@ -139,6 +143,12 @@ public class HospitalAdminJPanel extends javax.swing.JPanel {
         jLabel13.setText("City");
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+        jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        jLabel1.setText("Doctors Details");
+
+>>>>>>> Stashed changes
 =======
         jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         jLabel1.setText("Doctors Details");
@@ -149,6 +159,7 @@ public class HospitalAdminJPanel extends javax.swing.JPanel {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                 .addGap(172, 172, 172)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -195,6 +206,8 @@ public class HospitalAdminJPanel extends javax.swing.JPanel {
             .addGroup(layout.createSequentialGroup()
                 .addGap(25, 25, 25)
 =======
+=======
+>>>>>>> Stashed changes
                 .addGap(201, 201, 201)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
@@ -246,6 +259,9 @@ public class HospitalAdminJPanel extends javax.swing.JPanel {
                 .addGap(49, 49, 49)
                 .addComponent(jLabel1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 48, Short.MAX_VALUE)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jBtnViewDoctr)
@@ -254,6 +270,7 @@ public class HospitalAdminJPanel extends javax.swing.JPanel {
                     .addComponent(jBtnAddDoctor))
                 .addGap(33, 33, 33)
                 .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                 .addGap(42, 42, 42)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -283,6 +300,8 @@ public class HospitalAdminJPanel extends javax.swing.JPanel {
                     .addComponent(jTextDCity, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(0, 184, Short.MAX_VALUE))
 =======
+=======
+>>>>>>> Stashed changes
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jTextSearchDoc, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -311,6 +330,9 @@ public class HospitalAdminJPanel extends javax.swing.JPanel {
                         .addGap(18, 18, 18)
                         .addComponent(jTextDC, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(106, 106, 106))
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         );
     }// </editor-fold>//GEN-END:initComponents
@@ -330,9 +352,15 @@ public class HospitalAdminJPanel extends javax.swing.JPanel {
             model.setValueAt(jTextDD.getText(), selectedRowIndex, 1);
             model.setValueAt(jTextDC.getText(), selectedRowIndex, 2);
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             model.setValueAt(jTextDCity.getText(), selectedRowIndex, 3);
             model.setValueAt(jTextDDept.getText(), selectedRowIndex, 4);
             model.setValueAt(jTextHosptl.getText(), selectedRowIndex, 5);
+=======
+            model.setValueAt(jTextDDept.getText(), selectedRowIndex, 3);
+            model.setValueAt(jTextHosptl.getText(), selectedRowIndex, 4);
+            model.setValueAt(jTextDCity.getText(), selectedRowIndex, 5);
+>>>>>>> Stashed changes
 =======
             model.setValueAt(jTextDDept.getText(), selectedRowIndex, 3);
             model.setValueAt(jTextHosptl.getText(), selectedRowIndex, 4);
@@ -426,6 +454,10 @@ public class HospitalAdminJPanel extends javax.swing.JPanel {
     private javax.swing.JButton jBtnUpdateDoctr;
     private javax.swing.JButton jBtnViewDoctr;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+    private javax.swing.JLabel jLabel1;
+>>>>>>> Stashed changes
 =======
     private javax.swing.JLabel jLabel1;
 >>>>>>> Stashed changes

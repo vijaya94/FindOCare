@@ -15,7 +15,10 @@ public class Patient {
     private String ChooseDoctor;
     private String FName;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
      private String Diagnosis;
      private String ChooseCity;
      private String ChooseHospital;
@@ -63,6 +66,9 @@ public class Patient {
     public void setDiagnosis(String Diagnosis) {
         this.Diagnosis = Diagnosis;
     }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
     public String getPatientName() {
@@ -110,7 +116,10 @@ public class Patient {
         return PatientName;
     }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
     
     
 
@@ -136,6 +145,9 @@ public class Patient {
 //    public void setAddress(String address) {
 //        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
 //    }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
 }

@@ -11,7 +11,11 @@ import model.HospitalHistory;
 /**
  *
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
  * @author HP
+=======
+ * @author Vijaya B.
+>>>>>>> Stashed changes
 =======
  * @author Vijaya B.
 >>>>>>> Stashed changes
@@ -48,7 +52,11 @@ public class AddHospitalPanel extends javax.swing.JFrame {
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         jLabel8 = new javax.swing.JLabel();
+=======
+        jLabel9 = new javax.swing.JLabel();
+>>>>>>> Stashed changes
 =======
         jLabel9 = new javax.swing.JLabel();
 >>>>>>> Stashed changes
@@ -91,8 +99,13 @@ public class AddHospitalPanel extends javax.swing.JFrame {
         jLabel4.setText("Country");
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/Optimized-FindOCare.JPG"))); // NOI18N
         jLabel8.setText("jLabel8");
+=======
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/findddd.gif"))); // NOI18N
+        jLabel9.setText("jLabel1");
+>>>>>>> Stashed changes
 =======
         jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/findddd.gif"))); // NOI18N
         jLabel9.setText("jLabel1");
@@ -102,6 +115,7 @@ public class AddHospitalPanel extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addGap(46, 46, 46)
@@ -132,6 +146,8 @@ public class AddHospitalPanel extends javax.swing.JFrame {
                 .addComponent(jBtnSave)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
 =======
+=======
+>>>>>>> Stashed changes
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
@@ -161,11 +177,15 @@ public class AddHospitalPanel extends javax.swing.JFrame {
                         .addGap(136, 136, 136)))
                 .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 267, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(35, Short.MAX_VALUE))
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                 .addGap(53, 53, 53)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
@@ -189,6 +209,8 @@ public class AddHospitalPanel extends javax.swing.JFrame {
                 .addComponent(jBtnSave)
                 .addGap(186, 186, 186))
 =======
+=======
+>>>>>>> Stashed changes
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGap(31, 31, 31)
@@ -219,6 +241,9 @@ public class AddHospitalPanel extends javax.swing.JFrame {
                             .addComponent(jBtnGoBack)
                             .addComponent(jBtnSave))))
                 .addGap(227, 269, Short.MAX_VALUE))
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         );
 
@@ -318,7 +343,11 @@ public class AddHospitalPanel extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     private javax.swing.JLabel jLabel8;
+=======
+    private javax.swing.JLabel jLabel9;
+>>>>>>> Stashed changes
 =======
     private javax.swing.JLabel jLabel9;
 >>>>>>> Stashed changes

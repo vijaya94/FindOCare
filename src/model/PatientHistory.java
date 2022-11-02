@@ -38,6 +38,11 @@ public class PatientHistory {
         historyP.remove(p);
     }  
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+
+    
+>>>>>>> Stashed changes
 =======
 
     

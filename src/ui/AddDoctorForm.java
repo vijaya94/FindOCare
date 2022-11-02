@@ -11,7 +11,11 @@ import model.DoctorHistory;
 /**
  *
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
  * @author HP
+=======
+ * @author Vijaya B.
+>>>>>>> Stashed changes
 =======
  * @author Vijaya B.
 >>>>>>> Stashed changes
@@ -53,7 +57,11 @@ public class AddDoctorForm extends javax.swing.JFrame {
         jTextDocHospital = new javax.swing.JTextField();
         jTextDocCity = new javax.swing.JTextField();
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         jLabel8 = new javax.swing.JLabel();
+=======
+        jLabel9 = new javax.swing.JLabel();
+>>>>>>> Stashed changes
 =======
         jLabel9 = new javax.swing.JLabel();
 >>>>>>> Stashed changes
@@ -103,8 +111,13 @@ public class AddDoctorForm extends javax.swing.JFrame {
         jLabel7.setText("Doctor's City");
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/Optimized-FindOCare.JPG"))); // NOI18N
         jLabel8.setText("jLabel8");
+=======
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/findddd.gif"))); // NOI18N
+        jLabel9.setText("jLabel1");
+>>>>>>> Stashed changes
 =======
         jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/findddd.gif"))); // NOI18N
         jLabel9.setText("jLabel1");
@@ -114,6 +127,7 @@ public class AddDoctorForm extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -147,6 +161,8 @@ public class AddDoctorForm extends javax.swing.JFrame {
                             .addComponent(jTextDocHospital))))
                 .addContainerGap(326, Short.MAX_VALUE))
 =======
+=======
+>>>>>>> Stashed changes
             .addGroup(layout.createSequentialGroup()
                 .addGap(215, 215, 215)
                 .addComponent(jBtnSave)
@@ -177,11 +193,15 @@ public class AddDoctorForm extends javax.swing.JFrame {
                 .addGap(112, 112, 112)
                 .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 267, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 41, Short.MAX_VALUE))
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                 .addContainerGap()
                 .addComponent(jButton1)
@@ -206,6 +226,8 @@ public class AddDoctorForm extends javax.swing.JFrame {
                     .addComponent(jLabel4)
                     .addComponent(jTextDocDegree, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
 =======
+=======
+>>>>>>> Stashed changes
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGap(73, 73, 73)
@@ -225,6 +247,9 @@ public class AddDoctorForm extends javax.swing.JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addContainerGap()
                         .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 227, javax.swing.GroupLayout.PREFERRED_SIZE)))
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                 .addGap(24, 24, 24)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -240,7 +265,13 @@ public class AddDoctorForm extends javax.swing.JFrame {
                     .addComponent(jTextDocCity, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 76, Short.MAX_VALUE)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 .addComponent(jBtnSave)
+=======
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jBtnSave)
+                    .addComponent(jButton1))
+>>>>>>> Stashed changes
 =======
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jBtnSave)
@@ -369,7 +400,11 @@ public class AddDoctorForm extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     private javax.swing.JLabel jLabel8;
+=======
+    private javax.swing.JLabel jLabel9;
+>>>>>>> Stashed changes
 =======
     private javax.swing.JLabel jLabel9;
 >>>>>>> Stashed changes

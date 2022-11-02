@@ -23,6 +23,7 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="1" attributes="0">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="87" max="-2" attributes="0"/>
@@ -70,6 +71,8 @@
               <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="239" max="-2" attributes="0"/>
 =======
+=======
+>>>>>>> Stashed changes
               <EmptySpace pref="506" max="32767" attributes="0"/>
               <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="239" max="-2" attributes="0"/>
@@ -121,6 +124,9 @@
                   </Group>
                   <EmptySpace pref="123" max="32767" attributes="0"/>
               </Group>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
           </Group>
       </Group>
@@ -128,6 +134,7 @@
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
               <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
               <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
@@ -166,6 +173,8 @@
               <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
               <EmptySpace pref="191" max="32767" attributes="0"/>
 =======
+=======
+>>>>>>> Stashed changes
               <EmptySpace min="-2" pref="174" max="-2" attributes="0"/>
               <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="96" max="-2" attributes="0"/>
@@ -205,6 +214,9 @@
                   <Component id="btnSubmit" min="-2" max="-2" attributes="0"/>
                   <EmptySpace pref="132" max="32767" attributes="0"/>
               </Group>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
           </Group>
       </Group>
@@ -212,14 +224,20 @@
   </Layout>
   <SubComponents>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <Component class="javax.swing.JTextField" name="PI">
 =======
+=======
+>>>>>>> Stashed changes
     <Component class="javax.swing.JLabel" name="jLabel9">
     </Component>
     <Component class="javax.swing.JTextField" name="pn">
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="pnActionPerformed"/>
       </Events>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel1">
@@ -227,6 +245,7 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Times New Roman" size="24" style="1"/>
         </Property>
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
         <Property name="text" type="java.lang.String" value="Patient Form"/>
       </Properties>
@@ -237,6 +256,9 @@
 =======
         <Property name="text" type="java.lang.String" value="Patient Registration Form"/>
 >>>>>>> Stashed changes
+=======
+        <Property name="text" type="java.lang.String" value="Patient Registration Form"/>
+>>>>>>> Stashed changes
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel2">
@@ -244,6 +266,7 @@
         <Property name="text" type="java.lang.String" value="Enter you details"/>
       </Properties>
     </Component>
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
     <Component class="javax.swing.JComboBox" name="doctor">
       <Properties>
@@ -263,16 +286,21 @@
     </Component>
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
     <Component class="javax.swing.JLabel" name="jLabel3">
       <Properties>
         <Property name="text" type="java.lang.String" value="Patient Name:"/>
       </Properties>
     </Component>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <Component class="javax.swing.JTextField" name="CD">
     </Component>
     <Component class="javax.swing.JTextField" name="pn">
     </Component>
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     <Component class="javax.swing.JLabel" name="jLabel4">
@@ -285,7 +313,11 @@
     <Component class="javax.swing.JButton" name="btnSubmit">
       <Properties>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         <Property name="text" type="java.lang.String" value="Sumbit"/>
+=======
+        <Property name="text" type="java.lang.String" value="Submit"/>
+>>>>>>> Stashed changes
 =======
         <Property name="text" type="java.lang.String" value="Submit"/>
 >>>>>>> Stashed changes
@@ -299,6 +331,7 @@
         <Property name="text" type="java.lang.String" value="CNIC Number:"/>
       </Properties>
     </Component>
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
     <Component class="javax.swing.JTextField" name="CNIC">
     </Component>
@@ -324,6 +357,8 @@
         <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
       </AuxValues>
 =======
+=======
+>>>>>>> Stashed changes
     <Component class="javax.swing.JLabel" name="jLabel11">
       <Properties>
         <Property name="text" type="java.lang.String" value="Address:"/>
@@ -348,6 +383,9 @@
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="PHNActionPerformed"/>
       </Events>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     </Component>
   </SubComponents>

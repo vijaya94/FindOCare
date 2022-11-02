@@ -14,7 +14,11 @@ import model.HospitalHistory;
 /**
  *
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
  * @author HP
+=======
+ * @author Vijaya B.
+>>>>>>> Stashed changes
 =======
  * @author Vijaya B.
 >>>>>>> Stashed changes
@@ -57,6 +61,10 @@ public class CommunityAdminJPanel extends javax.swing.JPanel {
         jBtnUpdateH = new javax.swing.JButton();
         jBtnAddHosptl = new javax.swing.JButton();
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+        jLabel5 = new javax.swing.JLabel();
+>>>>>>> Stashed changes
 =======
         jLabel5 = new javax.swing.JLabel();
 >>>>>>> Stashed changes
@@ -131,6 +139,12 @@ public class CommunityAdminJPanel extends javax.swing.JPanel {
         });
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+        jLabel5.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        jLabel5.setText("Hospital Details");
+
+>>>>>>> Stashed changes
 =======
         jLabel5.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         jLabel5.setText("Hospital Details");
@@ -141,6 +155,7 @@ public class CommunityAdminJPanel extends javax.swing.JPanel {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
@@ -180,6 +195,8 @@ public class CommunityAdminJPanel extends javax.swing.JPanel {
             .addGroup(layout.createSequentialGroup()
                 .addGap(28, 28, 28)
 =======
+=======
+>>>>>>> Stashed changes
                 .addGap(148, 148, 148)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 500, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -216,6 +233,9 @@ public class CommunityAdminJPanel extends javax.swing.JPanel {
                 .addGap(52, 52, 52)
                 .addComponent(jLabel5)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 65, Short.MAX_VALUE)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jBtnViewH)
@@ -225,17 +245,23 @@ public class CommunityAdminJPanel extends javax.swing.JPanel {
                 .addGap(18, 18, 18)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 111, javax.swing.GroupLayout.PREFERRED_SIZE)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 .addGap(29, 29, 29)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel4)
                     .addComponent(jTextHSearch, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(57, 57, 57)
 =======
+=======
+>>>>>>> Stashed changes
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel4)
                     .addComponent(jTextHSearch, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jTextHName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -249,7 +275,11 @@ public class CommunityAdminJPanel extends javax.swing.JPanel {
                     .addComponent(jTextHCountry, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel1))
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 .addContainerGap(171, Short.MAX_VALUE))
+=======
+                .addGap(109, 109, 109))
+>>>>>>> Stashed changes
 =======
                 .addGap(109, 109, 109))
 >>>>>>> Stashed changes
@@ -349,6 +379,10 @@ public class CommunityAdminJPanel extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+    private javax.swing.JLabel jLabel5;
+>>>>>>> Stashed changes
 =======
     private javax.swing.JLabel jLabel5;
 >>>>>>> Stashed changes
