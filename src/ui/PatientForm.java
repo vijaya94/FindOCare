@@ -11,6 +11,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import javax.swing.JOptionPane;
 import javax.swing.Timer;
+import model.PatientHistory;
 
 /**
  *
@@ -21,6 +22,7 @@ public class PatientForm extends javax.swing.JFrame {
     /**
      * Creates new form Module1
      */
+    PatientHistory historyP;
     public PatientForm() {
         initComponents();
     showDate();
@@ -229,7 +231,7 @@ public class PatientForm extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jLabel8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel8MouseClicked
-        PatientJPanel obj=new PatientJPanel();
+        PatientJPanel obj=new PatientJPanel(historyP);
         obj.setVisible(true);
         dispose();
         // TODO add your handling code here:
