@@ -8,13 +8,20 @@ import javax.swing.JOptionPane;
 import javax.swing.RowFilter;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableRowSorter;
-import model.Doctor;
 import model.Hospital;
 import model.HospitalHistory;
 
 /**
  *
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
  * @author HP
+=======
+ * @author Vijaya B.
+>>>>>>> Stashed changes
+=======
+ * @author Vijaya B.
+>>>>>>> Stashed changes
  */
 public class CommunityAdminJPanel extends javax.swing.JPanel {
 
@@ -53,6 +60,14 @@ public class CommunityAdminJPanel extends javax.swing.JPanel {
         jBtnDltH = new javax.swing.JButton();
         jBtnUpdateH = new javax.swing.JButton();
         jBtnAddHosptl = new javax.swing.JButton();
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+        jLabel5 = new javax.swing.JLabel();
+>>>>>>> Stashed changes
+=======
+        jLabel5 = new javax.swing.JLabel();
+>>>>>>> Stashed changes
 
         setBackground(new java.awt.Color(255, 153, 153));
 
@@ -123,11 +138,25 @@ public class CommunityAdminJPanel extends javax.swing.JPanel {
             }
         });
 
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+        jLabel5.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        jLabel5.setText("Hospital Details");
+
+>>>>>>> Stashed changes
+=======
+        jLabel5.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        jLabel5.setText("Hospital Details");
+
+>>>>>>> Stashed changes
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGap(206, 206, 206)
@@ -165,6 +194,49 @@ public class CommunityAdminJPanel extends javax.swing.JPanel {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(28, 28, 28)
+=======
+=======
+>>>>>>> Stashed changes
+                .addGap(148, 148, 148)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 500, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel2)
+                            .addComponent(jLabel3)
+                            .addComponent(jLabel1)
+                            .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 106, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(53, 53, 53)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(jTextHSearch, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 153, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                .addComponent(jTextHName)
+                                .addComponent(jTextHCity)
+                                .addComponent(jTextHCountry, javax.swing.GroupLayout.PREFERRED_SIZE, 153, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jBtnViewH)
+                        .addGap(34, 34, 34)
+                        .addComponent(jBtnDltH)
+                        .addGap(31, 31, 31)
+                        .addComponent(jBtnUpdateH)
+                        .addGap(31, 31, 31)
+                        .addComponent(jBtnAddHosptl)))
+                .addContainerGap(156, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 187, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(333, 333, 333))
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addGap(52, 52, 52)
+                .addComponent(jLabel5)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 65, Short.MAX_VALUE)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jBtnViewH)
                     .addComponent(jBtnDltH)
@@ -172,11 +244,25 @@ public class CommunityAdminJPanel extends javax.swing.JPanel {
                     .addComponent(jBtnAddHosptl))
                 .addGap(18, 18, 18)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 111, javax.swing.GroupLayout.PREFERRED_SIZE)
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 .addGap(29, 29, 29)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel4)
                     .addComponent(jTextHSearch, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(57, 57, 57)
+=======
+=======
+>>>>>>> Stashed changes
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel4)
+                    .addComponent(jTextHSearch, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jTextHName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel3))
@@ -188,7 +274,15 @@ public class CommunityAdminJPanel extends javax.swing.JPanel {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jTextHCountry, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel1))
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 .addContainerGap(171, Short.MAX_VALUE))
+=======
+                .addGap(109, 109, 109))
+>>>>>>> Stashed changes
+=======
+                .addGap(109, 109, 109))
+>>>>>>> Stashed changes
         );
     }// </editor-fold>//GEN-END:initComponents
 
@@ -284,6 +378,14 @@ public class CommunityAdminJPanel extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+    private javax.swing.JLabel jLabel5;
+>>>>>>> Stashed changes
+=======
+    private javax.swing.JLabel jLabel5;
+>>>>>>> Stashed changes
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTextField jTextHCity;
     private javax.swing.JTextField jTextHCountry;

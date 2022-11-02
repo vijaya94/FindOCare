@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author HP
+ * @author Vijaya B.
  */
 public class HospitalHistory {
     private ArrayList<Hospital> historyH;

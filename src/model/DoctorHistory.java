@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author HP
+ * @author Vijaya B.
  */
 public class DoctorHistory {
     private ArrayList<Doctor> history;
@@ -34,7 +34,6 @@ public class DoctorHistory {
     
     public void deleteDoctor(Doctor d){
         history.remove(d);
-    }
-    
+    }   
     
 }

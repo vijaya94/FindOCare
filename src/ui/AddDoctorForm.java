@@ -10,7 +10,15 @@ import model.DoctorHistory;
 
 /**
  *
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
  * @author HP
+=======
+ * @author Vijaya B.
+>>>>>>> Stashed changes
+=======
+ * @author Vijaya B.
+>>>>>>> Stashed changes
  */
 public class AddDoctorForm extends javax.swing.JFrame {
 
@@ -48,7 +56,15 @@ public class AddDoctorForm extends javax.swing.JFrame {
         jLabel7 = new javax.swing.JLabel();
         jTextDocHospital = new javax.swing.JTextField();
         jTextDocCity = new javax.swing.JTextField();
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
         jLabel8 = new javax.swing.JLabel();
+=======
+        jLabel9 = new javax.swing.JLabel();
+>>>>>>> Stashed changes
+=======
+        jLabel9 = new javax.swing.JLabel();
+>>>>>>> Stashed changes
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setBackground(new java.awt.Color(255, 153, 153));
@@ -94,13 +110,25 @@ public class AddDoctorForm extends javax.swing.JFrame {
 
         jLabel7.setText("Doctor's City");
 
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
         jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/Optimized-FindOCare.JPG"))); // NOI18N
         jLabel8.setText("jLabel8");
+=======
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/findddd.gif"))); // NOI18N
+        jLabel9.setText("jLabel1");
+>>>>>>> Stashed changes
+=======
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/findddd.gif"))); // NOI18N
+        jLabel9.setText("jLabel1");
+>>>>>>> Stashed changes
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jButton1)
@@ -132,10 +160,49 @@ public class AddDoctorForm extends javax.swing.JFrame {
                             .addComponent(jTextDocCity)
                             .addComponent(jTextDocHospital))))
                 .addContainerGap(326, Short.MAX_VALUE))
+=======
+=======
+>>>>>>> Stashed changes
+            .addGroup(layout.createSequentialGroup()
+                .addGap(215, 215, 215)
+                .addComponent(jBtnSave)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jButton1)
+                .addGap(253, 253, 253))
+            .addGroup(layout.createSequentialGroup()
+                .addGap(88, 88, 88)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel2)
+                    .addComponent(jLabel3)
+                    .addComponent(jLabel4)
+                    .addComponent(jLabel5)
+                    .addComponent(jLabel6)
+                    .addComponent(jLabel7))
+                .addGap(124, 124, 124)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jTextDName)
+                    .addComponent(jTextDContact)
+                    .addComponent(jTextDocDegree)
+                    .addComponent(jTextDocDepartment, javax.swing.GroupLayout.DEFAULT_SIZE, 170, Short.MAX_VALUE)
+                    .addComponent(jTextDocCity)
+                    .addComponent(jTextDocHospital))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(layout.createSequentialGroup()
+                .addGap(167, 167, 167)
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 213, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(112, 112, 112)
+                .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 267, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 41, Short.MAX_VALUE))
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 .addContainerGap()
                 .addComponent(jButton1)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -158,6 +225,32 @@ public class AddDoctorForm extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel4)
                     .addComponent(jTextDocDegree, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+=======
+=======
+>>>>>>> Stashed changes
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(73, 73, 73)
+                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel2)
+                            .addComponent(jTextDName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(20, 20, 20)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel3)
+                            .addComponent(jTextDContact, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(22, 22, 22)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel4)
+                            .addComponent(jTextDocDegree, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 227, javax.swing.GroupLayout.PREFERRED_SIZE)))
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
                 .addGap(24, 24, 24)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel5)
@@ -171,7 +264,19 @@ public class AddDoctorForm extends javax.swing.JFrame {
                     .addComponent(jLabel7)
                     .addComponent(jTextDocCity, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 76, Short.MAX_VALUE)
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 .addComponent(jBtnSave)
+=======
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jBtnSave)
+                    .addComponent(jButton1))
+>>>>>>> Stashed changes
+=======
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jBtnSave)
+                    .addComponent(jButton1))
+>>>>>>> Stashed changes
                 .addGap(94, 94, 94))
         );
 
@@ -294,7 +399,15 @@ public class AddDoctorForm extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
     private javax.swing.JLabel jLabel8;
+=======
+    private javax.swing.JLabel jLabel9;
+>>>>>>> Stashed changes
+=======
+    private javax.swing.JLabel jLabel9;
+>>>>>>> Stashed changes
     private javax.swing.JTextField jTextDContact;
     private javax.swing.JTextField jTextDName;
     private javax.swing.JTextField jTextDocCity;
