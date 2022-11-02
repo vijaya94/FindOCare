@@ -26,45 +26,6 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-          <Group type="102" alignment="1" attributes="0">
-              <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
-              <Component id="jLabel8" min="-2" pref="104" max="-2" attributes="0"/>
-              <EmptySpace pref="173" max="32767" attributes="0"/>
-              <Component id="jLabel1" min="-2" pref="213" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="129" max="-2" attributes="0"/>
-              <Component id="jBtnGoBack" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="95" max="-2" attributes="0"/>
-          </Group>
-          <Group type="102" alignment="1" attributes="0">
-              <EmptySpace max="32767" attributes="0"/>
-              <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                  <Group type="102" attributes="0">
-                      <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="32767" attributes="0"/>
-                      <Component id="jTextHCountry" min="-2" pref="156" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="32767" attributes="0"/>
-                      <Component id="jTextHCity" min="-2" pref="156" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
-                      <Component id="jTextHName" min="-2" pref="156" max="-2" attributes="0"/>
-                  </Group>
-              </Group>
-              <EmptySpace min="-2" pref="238" max="-2" attributes="0"/>
-          </Group>
-          <Group type="102" alignment="0" attributes="0">
-              <EmptySpace min="-2" pref="359" max="-2" attributes="0"/>
-              <Component id="jBtnSave" min="-2" max="-2" attributes="0"/>
-              <EmptySpace max="32767" attributes="0"/>
-=======
-=======
->>>>>>> Stashed changes
           <Group type="102" attributes="0">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
@@ -103,30 +64,11 @@
               </Group>
               <Component id="jLabel9" min="-2" pref="267" max="-2" attributes="0"/>
               <EmptySpace pref="35" max="32767" attributes="0"/>
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
           </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-          <Group type="102" alignment="0" attributes="0">
-              <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="1" attributes="0">
-                  <Group type="102" attributes="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jLabel8" min="-2" pref="95" max="-2" attributes="0"/>
-                          <Component id="jLabel1" min="-2" pref="42" max="-2" attributes="0"/>
-                          <Component id="jBtnGoBack" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
-=======
-=======
->>>>>>> Stashed changes
           <Group type="102" attributes="0">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
@@ -137,32 +79,10 @@
                       <EmptySpace min="-2" pref="74" max="-2" attributes="0"/>
                       <Component id="jLabel1" min="-2" pref="42" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="jTextHName" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-                      <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jTextHCity" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
-                      <Component id="jTextHCountry" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace pref="44" max="32767" attributes="0"/>
-              <Component id="jBtnSave" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="186" max="-2" attributes="0"/>
-=======
-=======
->>>>>>> Stashed changes
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" attributes="0">
                               <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
@@ -191,10 +111,6 @@
                   </Group>
               </Group>
               <EmptySpace min="227" pref="269" max="32767" attributes="0"/>
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
           </Group>
       </Group>
     </DimensionLayout>
@@ -249,27 +165,12 @@
         <Property name="text" type="java.lang.String" value="Country"/>
       </Properties>
     </Component>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    <Component class="javax.swing.JLabel" name="jLabel8">
-      <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/ui/Optimized-FindOCare.JPG"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="jLabel8"/>
-=======
-=======
->>>>>>> Stashed changes
     <Component class="javax.swing.JLabel" name="jLabel9">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
           <Image iconType="3" name="/ui/findddd.gif"/>
         </Property>
         <Property name="text" type="java.lang.String" value="jLabel1"/>
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
       </Properties>
     </Component>
   </SubComponents>

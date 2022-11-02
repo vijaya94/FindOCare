@@ -10,15 +10,7 @@ import model.HospitalHistory;
 
 /**
  *
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
- * @author HP
-=======
  * @author Vijaya B.
->>>>>>> Stashed changes
-=======
- * @author Vijaya B.
->>>>>>> Stashed changes
  */
 public class AddHospitalPanel extends javax.swing.JFrame {
 
@@ -51,15 +43,7 @@ public class AddHospitalPanel extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-        jLabel8 = new javax.swing.JLabel();
-=======
         jLabel9 = new javax.swing.JLabel();
->>>>>>> Stashed changes
-=======
-        jLabel9 = new javax.swing.JLabel();
->>>>>>> Stashed changes
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setBackground(new java.awt.Color(255, 153, 153));
@@ -98,56 +82,13 @@ public class AddHospitalPanel extends javax.swing.JFrame {
 
         jLabel4.setText("Country");
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/Optimized-FindOCare.JPG"))); // NOI18N
-        jLabel8.setText("jLabel8");
-=======
         jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/findddd.gif"))); // NOI18N
         jLabel9.setText("jLabel1");
->>>>>>> Stashed changes
-=======
-        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/findddd.gif"))); // NOI18N
-        jLabel9.setText("jLabel1");
->>>>>>> Stashed changes
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addGap(46, 46, 46)
-                .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 173, Short.MAX_VALUE)
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 213, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(129, 129, 129)
-                .addComponent(jBtnGoBack)
-                .addGap(95, 95, 95))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel4)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jTextHCountry, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
-                        .addComponent(jLabel3)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jTextHCity, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
-                        .addComponent(jLabel2)
-                        .addGap(57, 57, 57)
-                        .addComponent(jTextHName, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(238, 238, 238))
-            .addGroup(layout.createSequentialGroup()
-                .addGap(359, 359, 359)
-                .addComponent(jBtnSave)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-=======
-=======
->>>>>>> Stashed changes
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
@@ -177,40 +118,10 @@ public class AddHospitalPanel extends javax.swing.JFrame {
                         .addGap(136, 136, 136)))
                 .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 267, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(35, Short.MAX_VALUE))
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-                .addGap(53, 53, 53)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jBtnGoBack))
-                        .addGap(16, 16, 16)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jTextHName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel2))
-                        .addGap(33, 33, 33)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jTextHCity, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel3))
-                        .addGap(48, 48, 48)
-                        .addComponent(jTextHCountry, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(jLabel4))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 44, Short.MAX_VALUE)
-                .addComponent(jBtnSave)
-                .addGap(186, 186, 186))
-=======
-=======
->>>>>>> Stashed changes
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGap(31, 31, 31)
@@ -241,10 +152,6 @@ public class AddHospitalPanel extends javax.swing.JFrame {
                             .addComponent(jBtnGoBack)
                             .addComponent(jBtnSave))))
                 .addGap(227, 269, Short.MAX_VALUE))
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
         );
 
         pack();
@@ -342,15 +249,7 @@ public class AddHospitalPanel extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    private javax.swing.JLabel jLabel8;
-=======
     private javax.swing.JLabel jLabel9;
->>>>>>> Stashed changes
-=======
-    private javax.swing.JLabel jLabel9;
->>>>>>> Stashed changes
     private javax.swing.JTextField jTextHCity;
     private javax.swing.JTextField jTextHCountry;
     private javax.swing.JTextField jTextHName;

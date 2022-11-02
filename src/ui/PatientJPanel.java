@@ -37,53 +37,15 @@ public class PatientJPanel extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-        PI = new javax.swing.JTextField();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel7 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        doctor = new javax.swing.JComboBox<>();
-        jLabel3 = new javax.swing.JLabel();
-        CD = new javax.swing.JTextField();
-        pn = new javax.swing.JTextField();
-=======
-=======
->>>>>>> Stashed changes
         jLabel9 = new javax.swing.JLabel();
         pn = new javax.swing.JTextField();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
         jLabel4 = new javax.swing.JLabel();
         fn = new javax.swing.JTextField();
         btnSubmit = new javax.swing.JButton();
         jLabel5 = new javax.swing.JLabel();
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-        CNIC = new javax.swing.JTextField();
-        jLabel9 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
-        ill = new javax.swing.JComboBox<>();
-
-        setBackground(new java.awt.Color(255, 153, 153));
-
-        jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
-        jLabel1.setText("Patient Form");
-
-        jLabel7.setText("Choose Doctor:");
-
-        jLabel2.setText("Enter you details");
-
-        doctor.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Dr. David", "Dr. Thomson", "Dr. Vivek", "Dr. Hassan", "Dr. Tina" }));
-
-=======
-=======
->>>>>>> Stashed changes
         jLabel11 = new javax.swing.JLabel();
         ADDR = new javax.swing.JTextField();
         Cnic = new javax.swing.JTextField();
@@ -103,23 +65,11 @@ public class PatientJPanel extends javax.swing.JPanel {
 
         jLabel2.setText("Enter you details");
 
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
         jLabel3.setText("Patient Name:");
 
         jLabel4.setText("Father name:");
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-        btnSubmit.setText("Sumbit");
-=======
         btnSubmit.setText("Submit");
->>>>>>> Stashed changes
-=======
-        btnSubmit.setText("Submit");
->>>>>>> Stashed changes
         btnSubmit.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnSubmitActionPerformed(evt);
@@ -128,14 +78,6 @@ public class PatientJPanel extends javax.swing.JPanel {
 
         jLabel5.setText("CNIC Number:");
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-        jLabel6.setText("Patient Illness:");
-
-        ill.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Fever", "FLU", "Bloodpressure", "Cancer" }));
-=======
-=======
->>>>>>> Stashed changes
         jLabel11.setText("Address:");
 
         ADDR.addActionListener(new java.awt.event.ActionListener() {
@@ -157,57 +99,12 @@ public class PatientJPanel extends javax.swing.JPanel {
                 PHNActionPerformed(evt);
             }
         });
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(87, 87, 87)
-                        .addComponent(jLabel2))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(133, 133, 133)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel4)
-                            .addComponent(jLabel3)
-                            .addComponent(jLabel5)
-                            .addComponent(jLabel6)
-                            .addComponent(jLabel7))))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                        .addComponent(btnSubmit)
-                        .addGroup(layout.createSequentialGroup()
-                            .addComponent(ill, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                            .addComponent(PI))
-                        .addComponent(CNIC, javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(fn, javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(pn, javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
-                            .addGap(1, 1, 1)
-                            .addComponent(doctor, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGap(18, 18, 18)
-                            .addComponent(CD, javax.swing.GroupLayout.DEFAULT_SIZE, 181, Short.MAX_VALUE)))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(46, 46, 46)
-                        .addComponent(jLabel1)))
-                .addGap(221, 221, 221))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel9)
-                .addGap(239, 239, 239))
-=======
-=======
->>>>>>> Stashed changes
                 .addContainerGap(506, Short.MAX_VALUE)
                 .addComponent(jLabel9)
                 .addGap(239, 239, 239))
@@ -246,50 +143,10 @@ public class PatientJPanel extends javax.swing.JPanel {
                             .addGap(292, 292, 292)
                             .addComponent(btnSubmit)))
                     .addContainerGap(123, Short.MAX_VALUE)))
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-                .addGap(40, 40, 40)
-                .addComponent(jLabel1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jLabel2)
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel3)
-                    .addComponent(pn, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel4)
-                    .addComponent(fn, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(24, 24, 24)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel5)
-                    .addComponent(CNIC, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(28, 28, 28)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel6)
-                    .addComponent(ill, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(PI, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(33, 33, 33)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel7)
-                    .addComponent(doctor, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(CD, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
-                .addComponent(btnSubmit)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jLabel9)
-                .addContainerGap(191, Short.MAX_VALUE))
-=======
-=======
->>>>>>> Stashed changes
                 .addGap(174, 174, 174)
                 .addComponent(jLabel2)
                 .addGap(96, 96, 96)
@@ -322,56 +179,10 @@ public class PatientJPanel extends javax.swing.JPanel {
                     .addGap(146, 146, 146)
                     .addComponent(btnSubmit)
                     .addContainerGap(132, Short.MAX_VALUE)))
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
         );
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnSubmitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSubmitActionPerformed
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-       String Cnic=CNIC.getText();
-        String pname=pn.getText();
-        String fname=fn.getText();
-        String pi=PI.getText();
-        String cd=CD.getText();
-        
-        Patient p = historyP.addNewPatient();
-        
-        p.setPatientName(pname);
-        p.setFName(fname);
-        p.setCnic(Cnic);
-        p.setPIllness(pi);
-        p.setChooseDoctor(cd);
-        
-        JOptionPane.showMessageDialog(this, "\n\n Patient details saved");
-        
-        CNIC.setText("");
-        pn.setText("");
-        fn.setText("");
-        PI.setText("");
-        CD.setText("");
-        
-
-        //JOptionPane.showMessageDialog(rootPane,"Patient Name: "+ pname+ "\nFather Name: "+fname+"\nCnic: "+Cnic+"\n\n Data has been Submitted");
-
-    }//GEN-LAST:event_btnSubmitActionPerformed
-
-
-    // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JTextField CD;
-    private javax.swing.JTextField CNIC;
-    private javax.swing.JTextField PI;
-    private javax.swing.JButton btnSubmit;
-    private javax.swing.JComboBox<String> doctor;
-    private javax.swing.JTextField fn;
-    private javax.swing.JComboBox<String> ill;
-    private javax.swing.JLabel jLabel1;
-=======
-=======
->>>>>>> Stashed changes
         if(pn.getText().equals("")){
             JOptionPane.showMessageDialog(this, "Patient Name cannot be blank.");
             pn.requestFocus();
@@ -448,22 +259,10 @@ public class PatientJPanel extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
     private javax.swing.JLabel jLabel9;
     private javax.swing.JTextField pn;
     // End of variables declaration//GEN-END:variables
