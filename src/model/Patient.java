@@ -11,10 +11,14 @@ package model;
 public class Patient {
     private String PatientName;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
     private String Cnic;
     private String PIllness;
     private String ChooseDoctor;
     private String FName;
+<<<<<<< Updated upstream
     private String diagnosis;
 
     public String getDiagnosis() {
@@ -26,6 +30,31 @@ public class Patient {
     }
 =======
     
+=======
+     private String Diagnosis;
+     private String ChooseCity;
+     private String ChooseHospital;
+     private String PhoneNumber;
+     private String Address;
+
+    public String getPhoneNumber() {
+        return PhoneNumber;
+    }
+
+    public void setPhoneNumber(String PhoneNumber) {
+        this.PhoneNumber = PhoneNumber;
+    }
+
+    public String getAddress() {
+        return Address;
+    }
+
+    public void setAddress(String Address) {
+        this.Address = Address;
+    }
+     
+
+>>>>>>> Stashed changes
     public String getChooseCity() {
         return ChooseCity;
     }
@@ -41,6 +70,7 @@ public class Patient {
     public void setChooseHospital(String ChooseHospital) {
         this.ChooseHospital = ChooseHospital;
     }
+<<<<<<< Updated upstream
 
     public String getPhoneNumber() {
         return PhoneNumber;
@@ -63,6 +93,9 @@ public class Patient {
     private String PhoneNumber;
     private String Address;
     private String Diagnosis;
+=======
+     
+>>>>>>> Stashed changes
 
     public String getDiagnosis() {
         return Diagnosis;
@@ -71,7 +104,10 @@ public class Patient {
     public void setDiagnosis(String Diagnosis) {
         this.Diagnosis = Diagnosis;
     }
+<<<<<<< Updated upstream
     
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
     public String getPatientName() {
@@ -114,6 +150,7 @@ public class Patient {
         this.ChooseDoctor = ChooseDoctor;
     }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     
     @Override
 =======
@@ -137,5 +174,40 @@ public class Patient {
 
 }
 
+
+>>>>>>> Stashed changes
+=======
+    
+    @Override
+    public String toString(){
+        return PatientName;
+    }
+    
+    
+
+//    public void setChooseCity(String cc) {
+//    }
+//
+//    public void setChooseHospital(String ch) {
+//        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+//    }
+//
+//    public Object getChooseCity() {
+//        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+//    }
+//
+//    public Object getChooseHospital() {
+//        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+//    }
+//
+//    public void setPhoneNumber(String phone) {
+//        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+//    }
+//
+//    public void setAddress(String address) {
+//        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+//    }
+
+}
 
 >>>>>>> Stashed changes
