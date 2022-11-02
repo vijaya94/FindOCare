@@ -14,6 +14,56 @@ public class Patient {
     private String PIllness;
     private String ChooseDoctor;
     private String FName;
+<<<<<<< Updated upstream
+=======
+     private String Diagnosis;
+     private String ChooseCity;
+     private String ChooseHospital;
+     private String PhoneNumber;
+     private String Address;
+
+    public String getPhoneNumber() {
+        return PhoneNumber;
+    }
+
+    public void setPhoneNumber(String PhoneNumber) {
+        this.PhoneNumber = PhoneNumber;
+    }
+
+    public String getAddress() {
+        return Address;
+    }
+
+    public void setAddress(String Address) {
+        this.Address = Address;
+    }
+     
+
+    public String getChooseCity() {
+        return ChooseCity;
+    }
+
+    public void setChooseCity(String ChooseCity) {
+        this.ChooseCity = ChooseCity;
+    }
+
+    public String getChooseHospital() {
+        return ChooseHospital;
+    }
+
+    public void setChooseHospital(String ChooseHospital) {
+        this.ChooseHospital = ChooseHospital;
+    }
+     
+
+    public String getDiagnosis() {
+        return Diagnosis;
+    }
+
+    public void setDiagnosis(String Diagnosis) {
+        this.Diagnosis = Diagnosis;
+    }
+>>>>>>> Stashed changes
 
     public String getPatientName() {
         return PatientName;
@@ -59,6 +109,34 @@ public class Patient {
     public String toString(){
         return PatientName;
     }
+<<<<<<< Updated upstream
+=======
+    
+    
+
+//    public void setChooseCity(String cc) {
+//    }
+//
+//    public void setChooseHospital(String ch) {
+//        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+//    }
+//
+//    public Object getChooseCity() {
+//        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+//    }
+//
+//    public Object getChooseHospital() {
+//        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+//    }
+//
+//    public void setPhoneNumber(String phone) {
+//        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+//    }
+//
+//    public void setAddress(String address) {
+//        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+//    }
+>>>>>>> Stashed changes
 
 }
 

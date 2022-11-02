@@ -7,7 +7,7 @@ package ui;
 
 /**
  *
- * @author Muhammad Taha Azam
+ * @author Sajja
  */
 public class FindOCare {
 

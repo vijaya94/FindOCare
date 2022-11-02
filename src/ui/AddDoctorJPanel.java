@@ -10,7 +10,11 @@ import model.DoctorHistory;
 
 /**
  *
+<<<<<<< Updated upstream
  * @author HP
+=======
+ * @author Vijaya B.
+>>>>>>> Stashed changes
  */
 public class AddDoctorJPanel extends javax.swing.JPanel {
 
