@@ -13,7 +13,7 @@ import model.PatientHistory;
 
 /**
  *
- * @author Parth Gurjar
+ * @author Parth N Gurjar
  */
 public class ViewDoctorpanel extends javax.swing.JPanel {
 
